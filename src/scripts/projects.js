@@ -41,6 +41,10 @@ function renderDetailList(items) {
 }
 
 function renderMetrics(items) {
+  if (!Array.isArray(items) || !items.length) {
+    return "";
+  }
+
   return items
     .map(
       (item) => `
@@ -54,6 +58,10 @@ function renderMetrics(items) {
 }
 
 function renderGallery(items) {
+  if (!Array.isArray(items) || !items.length) {
+    return "";
+  }
+
   return items
     .map(
       (item) => `
@@ -101,12 +109,26 @@ function enableLink(linkNode, href) {
 }
 
 function renderProjectPreview(project) {
+  const topline = [project.timeline, project.status].filter(Boolean);
+  const metrics = renderMetrics(project.metrics);
+
   return `
     <div class="project-card__preview">
-      <div class="project-card__topline">
-        <span class="status-badge">${project.previewCode}</span>
-        <span class="status-badge">${project.status}</span>
-      </div>
+      ${
+        topline.length
+          ? `
+            <div class="project-card__topline">
+              ${topline
+                .map(
+                  (item) => `
+                    <span class="status-badge">${item}</span>
+                  `
+                )
+                .join("")}
+            </div>
+          `
+          : "<div></div>"
+      }
 
       <div>
         <span class="mono-label">${project.category}</span>
@@ -114,9 +136,7 @@ function renderProjectPreview(project) {
         <p class="project-card__eyebrow">${project.cardTagline}</p>
       </div>
 
-      <div class="project-card__metrics">
-        ${renderMetrics(project.metrics)}
-      </div>
+      ${metrics ? `<div class="project-card__metrics">${metrics}</div>` : "<div></div>"}
     </div>
   `;
 }
@@ -184,6 +204,16 @@ function setActionLink(selector, href, disabledLabel) {
   });
 }
 
+function toggleSection(selector, shouldShow) {
+  document.querySelectorAll(selector).forEach((node) => {
+    node.hidden = !shouldShow;
+  });
+}
+
+function hasItems(items) {
+  return Array.isArray(items) && items.length > 0;
+}
+
 function renderProjectNavigation(projects, currentProject, projectBase) {
   const currentIndex = projects.findIndex((project) => project.key === currentProject.key);
   const previousProject = projects[(currentIndex - 1 + projects.length) % projects.length];
@@ -238,7 +268,7 @@ export function renderFeaturedProjects(projects, projectBase) {
             </div>
             <p class="project-card__summary">${project.cardDescription}</p>
             <div class="project-card__footer">
-              <span class="mono-label">${project.year}</span>
+              ${project.timeline ? `<span class="mono-label">${project.timeline}</span>` : "<span></span>"}
               <a class="button-secondary" href="${getProjectHref(projectBase, project.pageFile)}">
                 ${project.cardCta}
               </a>
@@ -279,7 +309,7 @@ export function renderProjectCaseStudy(projects, currentProject, projectBase) {
   setText("[data-project-category]", currentProject.category);
   setText("[data-project-status]", currentProject.status);
   setText("[data-project-role]", currentProject.role);
-  setText("[data-project-year]", currentProject.year);
+  setText("[data-project-year]", currentProject.timeline);
   setText("[data-project-challenge]", currentProject.challenge);
   setText("[data-project-solution]", currentProject.solution);
   setText("[data-project-impact]", currentProject.impact);
@@ -304,6 +334,26 @@ export function renderProjectCaseStudy(projects, currentProject, projectBase) {
 
   setActionLink("[data-project-demo]", currentProject.links?.demo, currentProject.privateLinkLabel);
   setActionLink("[data-project-github]", currentProject.links?.github, currentProject.privateLinkLabel);
+
+  toggleSection("[data-project-meta-category]", Boolean(currentProject.category));
+  toggleSection("[data-project-meta-status]", Boolean(currentProject.status));
+  toggleSection("[data-project-meta-role]", Boolean(currentProject.role));
+  toggleSection("[data-project-meta-timeline]", Boolean(currentProject.timeline));
+  toggleSection("[data-project-metrics-wrap]", hasItems(currentProject.metrics));
+  toggleSection("[data-project-section-goals]", hasItems(currentProject.goals));
+  toggleSection("[data-project-section-features]", hasItems(currentProject.features));
+  toggleSection(
+    "[data-project-section-challenge]",
+    Boolean(currentProject.challenge || currentProject.solution || currentProject.impact)
+  );
+  toggleSection("[data-project-section-gallery]", hasItems(currentProject.gallery));
+  toggleSection("[data-project-section-future]", hasItems(currentProject.future));
+  toggleSection(
+    "[data-project-section-links]",
+    Boolean(currentProject.links?.demo && currentProject.links.demo !== "#") ||
+      Boolean(currentProject.links?.github && currentProject.links.github !== "#") ||
+      Boolean(currentProject.privateNote)
+  );
 
   renderProjectNavigation(projects, currentProject, projectBase);
 }

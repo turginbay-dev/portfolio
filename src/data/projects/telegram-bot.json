@@ -1,8 +1,5 @@
 {
-  "year": "2024 / 2025",
-  "previewCode": "TGB-03",
-  "accent": "silver",
-  "stack": ["Python", "Telegram API", "Git", "Linux", "VS Code"],
+  "stack": ["Python", "Telegram Bot API"],
   "links": {
     "demo": "#",
     "github": "#"
@@ -10,192 +7,54 @@
   "locales": {
     "en": {
       "name": "Telegram Bot",
-      "category": "Automation Utility",
-      "status": "Prototype / iterating",
-      "cardTagline": "Useful automation over decorative complexity.",
-      "cardDescription": "A Telegram bot built to simplify repeated tasks through command logic, API integration, and clean utility-first thinking.",
-      "cardCta": "Open case study",
-      "headline": "A practical automation project focused on command design, workflow reduction, and everyday usefulness.",
-      "summary": "The bot turns small repeated tasks into cleaner workflows. The focus is usefulness first: reduce friction, save time, and keep the interaction model clear.",
-      "role": "Automation developer",
-      "challenge": "Automation projects lose value when they become bloated collections of random commands.",
-      "solution": "This bot stays useful by centering clear command design, practical workflows, and integrations that remove manual repetition.",
-      "impact": "It strengthens API thinking, workflow design, and the ability to ship small systems that solve real problems quietly.",
-      "metrics": [
-        {
-          "label": "Focus",
-          "value": "Useful Automation"
-        },
-        {
-          "label": "Engine",
-          "value": "Python + Telegram API"
-        },
-        {
-          "label": "Outcome",
-          "value": "Faster Workflows"
-        }
-      ],
+      "category": "Automation bot",
+      "cardTagline": "A small bot project for repeated workflows.",
+      "cardDescription": "This project is a Telegram bot built around automation utilities. The main idea is simple: use a bot to make repeated workflows easier.",
+      "cardCta": "Open project",
+      "headline": "A Telegram bot project focused on workflow automation.",
+      "summary": "This is a smaller project in my portfolio, but the idea is straightforward and useful. I built it as an automation utilities bot with Python and the Telegram Bot API.",
       "goals": [
-        "Reduce repeated actions through a cleaner command-driven flow.",
-        "Strengthen API thinking with practical automation scenarios.",
-        "Keep the product useful instead of decorative."
+        "Use a bot to streamline repeated workflows."
       ],
-      "features": [
-        "Command-based workflow shortcuts.",
-        "Practical automation logic for repeated tasks.",
-        "API integration thinking for small but useful systems.",
-        "A utility-first structure ready for new commands."
-      ],
-      "future": [
-        "Expand workflow depth with more targeted command branches.",
-        "Connect additional external services where they add real value.",
-        "Improve logging, user guidance, and feedback states."
-      ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Command overview",
-          "description": "The main interaction layer where utility and clarity need to stay balanced."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Task automation flow",
-          "description": "A guided sequence that shows how a repeated action becomes faster and cleaner."
-        },
-        {
-          "label": "Frame 03",
-          "title": "System logic",
-          "description": "A support view for the API-side thinking behind each command and response."
-        }
-      ],
-      "privateNote": "Links will be connected when the command set and deployment layer are ready.",
-      "privateLinkLabel": "Links pending"
+      "features": [],
+      "future": [],
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Links not added"
     },
     "kz": {
       "name": "Telegram Bot",
-      "category": "Automation Utility",
-      "status": "Prototype / iteration",
-      "cardTagline": "Әшекейден гөрі пайдалы automation.",
-      "cardDescription": "Қайталанатын тапсырмаларды command logic, API integration және таза utility-first ойлау арқылы жеңілдетуге арналған Telegram bot.",
-      "cardCta": "Case study Ашу",
-      "headline": "Command design, workflow reduction және күнделікті usefulness-ке бағытталған практикалық automation жобасы.",
-      "summary": "Бұл bot ұсақ қайталанатын тапсырмаларды cleaner workflow-ға айналдырады. Негізгі фокус — usefulness first: friction-ды азайту, уақыт үнемдеу және interaction model-ді анық ұстау.",
-      "role": "Automation developer",
-      "challenge": "Automation жобалары кездейсоқ command-тардың шамадан тыс жинағына айналса, құнын жоғалтады.",
-      "solution": "Bot command design-ды, практикалық workflow-ларды және manual repetition-ді азайтатын integration-дарды орталыққа қояды.",
-      "impact": "Бұл жоба API thinking-ті, workflow design-ды және шынайы мәселені тыныш шешетін шағын system-дерді шығару қабілетін күшейтеді.",
-      "metrics": [
-        {
-          "label": "Focus",
-          "value": "Useful Automation"
-        },
-        {
-          "label": "Engine",
-          "value": "Python + Telegram API"
-        },
-        {
-          "label": "Outcome",
-          "value": "Faster Workflows"
-        }
-      ],
+      "category": "Automation bot",
+      "cardTagline": "Қайталанатын workflow-ларға арналған шағын bot жобасы.",
+      "cardDescription": "Бұл жоба automation utilities төңірегінде құрылған Telegram bot. Негізгі ой қарапайым: қайталанатын workflow-ларды bot арқылы жеңілдету.",
+      "cardCta": "Жобаны ашу",
+      "headline": "Workflow automation-ға бағытталған Telegram bot жобасы.",
+      "summary": "Бұл менің портфолиомдағы көлемі кішілеу жоба, бірақ идеясы анық және пайдалы. Оны Python және Telegram Bot API арқылы automation utilities bot ретінде жасадым.",
       "goals": [
-        "Қайталанатын әрекеттерді cleaner command-driven flow арқылы қысқарту.",
-        "Практикалық automation scenario арқылы API thinking-ті күшейту.",
-        "Өнімді decorative емес, пайдалы етіп ұстау."
+        "Қайталанатын workflow-ларды bot арқылы жеңілдету."
       ],
-      "features": [
-        "Command-based workflow shortcut-тар.",
-        "Қайталанатын тапсырмаларға арналған practical automation logic.",
-        "Шағын, бірақ пайдалы system-дерге арналған API integration ойлауы.",
-        "Жаңа command-тарға дайын utility-first құрылым."
-      ],
-      "future": [
-        "Нақтырақ command branch-тер арқылы workflow depth-ті кеңейту.",
-        "Шынайы value беретін external service-терді қосу.",
-        "Logging, user guidance және feedback state-терін жақсарту."
-      ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Command overview",
-          "description": "Utility мен clarity теңгерімі сақталуы тиіс негізгі interaction layer."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Task automation flow",
-          "description": "Қайталанатын әрекетті жылдамырақ әрі cleaner ететін guided sequence."
-        },
-        {
-          "label": "Frame 03",
-          "title": "System logic",
-          "description": "Әр command пен response артындағы API-side thinking-ті көрсететін supporting view."
-        }
-      ],
-      "privateNote": "Command set пен deployment layer дайын болғанда сілтемелер қосылады.",
-      "privateLinkLabel": "Сілтемелер күтілуде"
+      "features": [],
+      "future": [],
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Сілтемелер жоқ"
     },
     "ru": {
       "name": "Telegram Bot",
-      "category": "Automation Utility",
-      "status": "Prototype / iterating",
-      "cardTagline": "Полезная automation вместо декоративной сложности.",
-      "cardDescription": "Telegram-бот, собранный для упрощения повторяющихся задач через command logic, API integration и clean utility-first мышление.",
-      "cardCta": "Открыть case study",
-      "headline": "Практический automation-проект, сфокусированный на command design, сокращении workflow и повседневной пользе.",
-      "summary": "Бот превращает небольшие повторяющиеся задачи в более чистые workflow. Главный фокус — usefulness first: уменьшить friction, сэкономить время и сохранить interaction model ясной.",
-      "role": "Automation developer",
-      "challenge": "Automation-проекты теряют ценность, когда превращаются в раздутые наборы случайных команд.",
-      "solution": "Бот сохраняет пользу за счет четкого command design, практических workflow и integration-слоев, которые убирают ручное повторение.",
-      "impact": "Проект усиливает API thinking, workflow design и умение выпускать небольшие системы, которые тихо решают реальные проблемы.",
-      "metrics": [
-        {
-          "label": "Focus",
-          "value": "Useful Automation"
-        },
-        {
-          "label": "Engine",
-          "value": "Python + Telegram API"
-        },
-        {
-          "label": "Outcome",
-          "value": "Faster Workflows"
-        }
-      ],
+      "category": "Automation bot",
+      "cardTagline": "Небольшой bot-проект для повторяющихся workflow.",
+      "cardDescription": "Этот проект - Telegram bot, собранный вокруг automation utilities. Идея простая: использовать бота, чтобы упростить повторяющиеся workflow.",
+      "cardCta": "Открыть проект",
+      "headline": "Telegram bot проект, сфокусированный на workflow automation.",
+      "summary": "Это более компактный проект в моем портфолио, но сама идея понятная и полезная. Я сделал его как automation utilities bot на Python и Telegram Bot API.",
       "goals": [
-        "Сократить повторяющиеся действия через более чистый command-driven flow.",
-        "Усилить API-мышление на практических automation-сценариях.",
-        "Сделать продукт в первую очередь полезным, а не декоративным."
+        "Упростить повторяющиеся workflow с помощью бота."
       ],
-      "features": [
-        "Command-based workflow shortcuts.",
-        "Практическая automation logic для повторяющихся задач.",
-        "API integration мышление для небольших, но полезных systems.",
-        "Utility-first структура с готовностью к новым командам."
-      ],
-      "future": [
-        "Расширить workflow depth через более точные command branches.",
-        "Подключить дополнительные external services там, где есть реальная польза.",
-        "Улучшить logging, user guidance и feedback states."
-      ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Command overview",
-          "description": "Основной interaction layer, где нужно удержать баланс между utility и clarity."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Task automation flow",
-          "description": "Guided sequence, показывающий, как повторяющееся действие становится быстрее и чище."
-        },
-        {
-          "label": "Frame 03",
-          "title": "System logic",
-          "description": "Supporting view для API-side мышления, стоящего за каждой командой и ответом."
-        }
-      ],
-      "privateNote": "Ссылки будут подключены, когда command set и deployment layer будут готовы.",
-      "privateLinkLabel": "Ссылки позже"
+      "features": [],
+      "future": [],
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Ссылки не добавлены"
     }
   }
 }

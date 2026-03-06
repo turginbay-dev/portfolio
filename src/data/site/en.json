@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
-    "description": "A premium dark portfolio for Turginbay Bekzat, an ambitious IT student from Kazakhstan building toward an elite full-stack future.",
-    "ogTitle": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
-    "ogDescription": "Premium developer identity, cinematic dark interface, and serious product ambition from a future full-stack builder."
+    "title": "Turginbay Bekzat | Django & Flutter Portfolio",
+    "description": "Portfolio of Turginbay Bekzat, a 2nd-year IT student at Satbayev University building web and mobile projects with Django and Flutter.",
+    "ogTitle": "Turginbay Bekzat | Django & Flutter Portfolio",
+    "ogDescription": "Web and mobile projects by Turginbay Bekzat, including NaqUsta, QazSound, and a Telegram bot."
   },
   "brand": {
-    "role": "Future Full-Stack Developer",
-    "tagline": "Kazakhstan / Web + Mobile / Founder Energy"
+    "role": "Full Stack Web & Flutter Developer",
+    "tagline": "Satbayev University / Kazakhstan"
   },
   "nav": {
     "home": "Home",
@@ -16,197 +16,197 @@
     "projects": "Projects",
     "journey": "Journey",
     "contact": "Contact",
-    "cta": "View Work"
+    "cta": "Projects"
   },
   "hero": {
-    "eyebrow": "Kazakhstan / Satbayev University / 2nd Year",
-    "title": "Designing <span class=\"accent\">sharp interfaces</span>. Building serious systems.",
-    "body": "I build modern digital experiences with precision, ambition, and long-range intent. The goal is bigger than a student portfolio: create products that already feel composed, scalable, and ready for real users.",
-    "primaryCta": "View Projects",
-    "secondaryCta": "Contact Me",
-    "statusLabel": "Current signal",
-    "statusValue": "Studying at Satbayev University while building real products with web and mobile direction.",
-    "statusNote": "The target is clear: elite full-stack capability, clean product taste, and disciplined execution over time.",
-    "signatureLabel": "Signature Visual",
-    "signatureTitle": "Signal chamber",
-    "signatureBody": "A restrained motion field that makes the hero feel alive, technical, and intentional before any case study is opened.",
+    "eyebrow": "2nd-year IT student at Satbayev University",
+    "title": "I build web and mobile projects with Django and Flutter.",
+    "body": "I’m Bekzat from Kazakhstan. Right now I’m focused on full-stack web development with Django and mobile apps with Flutter, and I use personal projects to understand how UI, backend logic, and product structure fit together.",
+    "primaryCta": "View projects",
+    "secondaryCta": "Contact me",
+    "statusLabel": "Right now",
+    "statusValue": "I’m currently exploring Clean Architecture, UI/UX design, and scalable backend systems.",
+    "statusNote": "My long-term goal is to become a world-class senior full-stack developer.",
+    "signatureLabel": "This portfolio",
+    "signatureTitle": "Built around real work",
+    "signatureBody": "Everything here comes from projects I actually built and documented over time.",
     "stats": [
       {
-        "label": "Base",
+        "label": "Location",
         "value": "Kazakhstan"
       },
-      {
-        "label": "Direction",
-        "value": "Full-Stack + Mobile"
-      },
-      {
-        "label": "Mode",
-        "value": "Real Projects"
-      }
-    ],
-    "pills": ["KZ / RU / EN", "Python + Django", "Flutter + Firebase", "Founder Energy"],
-    "metrics": [
       {
         "label": "University",
         "value": "Satbayev University"
       },
       {
         "label": "Stage",
-        "value": "2nd Year"
+        "value": "2nd year"
+      }
+    ],
+    "pills": ["Django", "Flutter", "Firebase", "Python"],
+    "metrics": [
+      {
+        "label": "Path",
+        "value": "Full-stack web"
+      },
+      {
+        "label": "Mobile",
+        "value": "Flutter apps"
       },
       {
         "label": "Focus",
-        "value": "Scalable Product Thinking"
+        "value": "Clean architecture"
       }
     ],
     "log": [
-      "/init ambition.signal",
-      "load interface.precision",
-      "compile backend.depth",
-      "deploy long_term.vision"
+      "Django",
+      "Flutter",
+      "UI/UX design",
+      "Scalable backends"
     ]
   },
   "about": {
     "eyebrow": "About",
-    "title": "Early in the journey. Already operating with higher standards.",
-    "lead": "Turginbay Bekzat is a young IT student from Kazakhstan building toward full-stack depth with seriousness, discipline, and a strong eye for modern product quality.",
-    "introLabel": "Profile",
-    "introBody": "He is not trying to look experienced before the work exists. He is building the habits, taste, and technical range that let real products feel clean, useful, and scalable.",
-    "philosophyLabel": "Mindset",
-    "philosophyBody": "The mission is not to collect random tools. It is to develop product judgment, engineering depth, and the ability to ship complete digital systems end to end.",
-    "quote": "I’m building the skillset of a developer who can create products people trust, enjoy, and remember.",
+    "title": "I’m still early in the process, but I like building complete things.",
+    "lead": "I study Information Technology at Satbayev University and use personal projects to get better at both web and mobile development.",
+    "introLabel": "About me",
+    "introBody": "My main path right now is full-stack web development with Django and mobile apps with Flutter.",
+    "philosophyLabel": "What I’m exploring",
+    "philosophyBody": "At the moment I’m spending a lot of time on Clean Architecture, UI/UX design, and scalable backend systems.",
+    "quote": "I like bridging the gap between clean user interfaces and solid databases.",
     "stats": [
       {
         "label": "University",
         "value": "Satbayev University"
       },
       {
-        "label": "Academic Stage",
-        "value": "2nd Year IT Student"
+        "label": "Stage",
+        "value": "2nd-year student"
       },
       {
-        "label": "Direction",
-        "value": "Full-Stack Path"
+        "label": "Field",
+        "value": "Information Technology"
       },
       {
-        "label": "Current Mode",
-        "value": "Building Real Projects"
+        "label": "Goal",
+        "value": "Senior full-stack developer"
       }
     ],
     "identity": [
       {
         "label": "Base",
         "value": "Kazakhstan",
-        "note": "Local roots, global technical ambition."
-      },
-      {
-        "label": "Education",
-        "value": "Satbayev University",
-        "note": "2nd year IT track with serious growth intent."
+        "note": "That’s where I study and build from."
       },
       {
         "label": "Direction",
-        "value": "Web + Mobile",
-        "note": "Full-stack systems, product UI, and disciplined iteration."
+        "value": "Django + Flutter",
+        "note": "Web and mobile are the two areas I’m focused on most."
+      },
+      {
+        "label": "Approach",
+        "value": "Learning by building",
+        "note": "Real projects teach me more than isolated exercises."
       }
     ]
   },
   "skills": {
     "eyebrow": "Skills / Stack",
-    "title": "A stack shaped around real product building.",
-    "lead": "The technologies are practical, but the standard is premium: clean interfaces, stronger backend logic, mobile exploration, and a disciplined toolchain.",
-    "labLabel": "Operating Style",
-    "labTitle": "How the stack is being sharpened",
-    "labBody": "Every tool here is tied to shipping better products, not simply expanding a checklist.",
+    "title": "The tools I use most right now.",
+    "lead": "Most of my work sits between Django on the web side and Flutter on the mobile side, with the usual frontend and tooling around them.",
+    "labLabel": "Current direction",
+    "labTitle": "What I’m trying to get better at",
+    "labBody": "Alongside the main stack, I’m actively learning the parts that make projects cleaner and easier to grow.",
     "groups": [
       {
-        "label": "01 / Frontend",
-        "title": "Clean interfaces with structure",
-        "description": "Modern layouts, responsive execution, and interface clarity that feels deliberate.",
-        "items": ["JavaScript", "HTML", "CSS"]
+        "label": "01 / Backend",
+        "title": "Python and Django",
+        "description": "This is the main web backend path I’m building on right now.",
+        "items": ["Python", "Django"]
       },
       {
-        "label": "02 / Backend",
-        "title": "Logic that can scale",
-        "description": "Backend thinking built around Python, Django, and cleaner product architecture.",
-        "items": ["Python", "Django", "System Logic"]
+        "label": "02 / Mobile",
+        "title": "Flutter and Firebase",
+        "description": "I use Flutter for mobile apps and Firebase for auth, data, and storage when the project needs it.",
+        "items": ["Flutter", "Firebase"]
       },
       {
-        "label": "03 / Mobile",
-        "title": "Product direction beyond the browser",
-        "description": "Flutter and Firebase used to explore real-time flows, mobile UX, and role-based systems.",
-        "items": ["Flutter", "Firebase", "Mobile Flow"]
+        "label": "03 / Frontend",
+        "title": "HTML, CSS, JavaScript",
+        "description": "For web projects, I still like understanding the basics directly instead of hiding them behind a big framework.",
+        "items": ["HTML", "CSS", "JavaScript"]
       },
       {
         "label": "04 / Tools",
-        "title": "A reliable build routine",
-        "description": "Tooling that supports consistency, version control, and focused development cycles.",
+        "title": "Daily tools",
+        "description": "These are the tools I use constantly while building and studying.",
         "items": ["Git", "Linux", "VS Code"]
       }
     ],
     "labPills": [
-      "Version control discipline",
-      "Linux comfort",
-      "Readable code habits",
-      "Iterative product thinking"
+      "Clean Architecture",
+      "UI/UX design",
+      "Scalable backend systems",
+      "Real project workflow"
     ]
   },
   "projectsSection": {
     "eyebrow": "Featured Projects",
-    "title": "Three builds that already show product ambition.",
-    "lead": "Each project is presented like a mini case study: clear purpose, sharper structure, and enough substance to show real direction."
+    "title": "Three projects that show where I am right now.",
+    "lead": "They’re different in scope, but each one helped me learn something concrete about product structure, backend logic, or workflow."
   },
   "journey": {
     "eyebrow": "Journey / Roadmap",
-    "title": "A roadmap aimed at elite full-stack capability.",
-    "lead": "The path is deliberate: strengthen the fundamentals, build real products, connect interface quality to system logic, and keep raising the standard.",
-    "closingLabel": "Trajectory",
-    "closingTitle": "Long-range direction",
-    "closingBody": "The end goal is clear: build polished digital products with engineering depth, design taste, and founder-level ownership.",
+    "title": "Where I am, what I’m learning, and where I want to go.",
+    "lead": "I don’t think of this as a fixed plan. It’s more a clear direction based on what I’m studying and building now.",
+    "closingLabel": "Long-term",
+    "closingTitle": "The goal",
+    "closingBody": "I want to keep building until web, mobile, UI, and backend work all feel natural in the same project.",
     "phases": [
       {
-        "phase": "Phase 01",
-        "status": "Now",
-        "title": "Strengthen the core",
-        "body": "Solidify programming fundamentals, frontend execution, and backend reasoning through consistent practice.",
-        "meta": "Current focus"
+        "phase": "Now",
+        "status": "Education",
+        "title": "2nd-year IT student at Satbayev University",
+        "body": "My foundation right now is university study plus a lot of self-driven project work outside class.",
+        "meta": "Current stage"
       },
       {
-        "phase": "Phase 02",
-        "status": "Building",
-        "title": "Ship real projects",
-        "body": "Turn learning into case studies, interfaces, product logic, and stronger engineering habits.",
-        "meta": "Active builds"
+        "phase": "Path",
+        "status": "Main stack",
+        "title": "Full-stack web and mobile development",
+        "body": "My main direction is Django for the web side and Flutter for mobile apps.",
+        "meta": "What I build with"
       },
       {
-        "phase": "Phase 03",
-        "status": "Next",
-        "title": "Scale full-stack confidence",
-        "body": "Connect backend systems, APIs, and frontends into products that feel mature and cohesive.",
-        "meta": "System depth"
+        "phase": "Learning",
+        "status": "Current focus",
+        "title": "Clean Architecture, UI/UX, scalable backends",
+        "body": "These are the areas I’m spending the most time on right now because they change how solid a project feels.",
+        "meta": "What I’m exploring"
       },
       {
-        "phase": "Phase 04",
-        "status": "North star",
-        "title": "Operate at elite level",
-        "body": "Reach a standard where product quality, technical depth, and execution discipline feel inseparable.",
-        "meta": "Long-term ambition"
+        "phase": "Goal",
+        "status": "Long-term",
+        "title": "Become a world-class senior full-stack developer",
+        "body": "That’s the direction I’m working toward, step by step, through real projects and better engineering habits.",
+        "meta": "Career goal"
       }
     ]
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Open to serious builders, future collaborators, and sharp conversations.",
-    "lead": "The public identity is still growing, but the contact layer is already structured like the work: clean, intentional, and ready to scale.",
+    "title": "If you want to reach me, these are the links I actually use.",
+    "lead": "GitHub is where I keep the code. LinkedIn, Instagram, and email are here if you want to connect.",
     "primaryCta": "Open GitHub",
-    "secondaryCta": "Return to Projects",
-    "footnote": "More public links can be connected as the profile stack expands.",
+    "secondaryCta": "See projects again",
+    "footnote": "These links come from my current public profiles.",
     "cards": [
       {
         "key": "github",
         "label": "GitHub",
-        "title": "Repository signal",
-        "body": "Code, project structure, and the public trail of what is being built.",
+        "title": "Code and repositories",
+        "body": "This is the main place to see what I’m building and how I structure projects.",
         "href": "https://github.com/turginbay-dev",
         "action": "Open profile",
         "available": true
@@ -215,28 +215,28 @@
         "key": "linkedin",
         "label": "LinkedIn",
         "title": "Professional profile",
-        "body": "Reserved for a sharper network-facing identity and future collaborations.",
-        "href": "#",
-        "action": "Private / pending",
-        "available": false
+        "body": "If you want the professional side of my profile, LinkedIn is the right place.",
+        "href": "https://www.linkedin.com/in/bekzat-turginbay-75b5a4355?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxaCT1nCgRw2T6gnnwTP90g%3D%3D",
+        "action": "Open LinkedIn",
+        "available": true
       },
       {
         "key": "instagram",
         "label": "Instagram",
-        "title": "Personal layer",
-        "body": "A softer brand channel prepared without breaking the premium technical tone.",
-        "href": "#",
-        "action": "Private / pending",
-        "available": false
+        "title": "Personal account",
+        "body": "This is the more personal side if you want to follow there too.",
+        "href": "https://www.instagram.com/turginbay_?igsh=a3gzbTA1azdrazl2utm_source=qr",
+        "action": "Open Instagram",
+        "available": true
       },
       {
         "key": "email",
         "label": "Email",
-        "title": "Direct channel",
-        "body": "Prepared as the most direct route for real opportunities and serious outreach.",
-        "href": "#",
-        "action": "Available on request",
-        "available": false
+        "title": "Direct contact",
+        "body": "If email is easier, this is the address I shared in my public profile links.",
+        "href": "mailto:bekzattursi25nbai@gmail.com",
+        "action": "Send email",
+        "available": true
       }
     ]
   },
@@ -251,20 +251,20 @@
     "summaryLabel": "Overview",
     "goalsLabel": "Goals",
     "featuresLabel": "Key Features",
-    "challengeLabel": "Challenge",
-    "solutionLabel": "Solution",
+    "challengeLabel": "Problem",
+    "solutionLabel": "How I handled it",
     "impactLabel": "Why it matters",
-    "futureLabel": "Future Improvements",
-    "galleryLabel": "Selected Frames",
+    "futureLabel": "Next things I want to add",
+    "galleryLabel": "Screens / Notes",
     "linksLabel": "Project Links",
     "demoCta": "Live Demo",
     "githubCta": "GitHub Repo",
-    "navigationEyebrow": "Next Navigation",
+    "navigationEyebrow": "Project navigation",
     "previousLabel": "Previous Project",
     "nextLabel": "Next Project"
   },
   "footer": {
-    "closing": "Built in Kazakhstan. Aiming at global-level product quality.",
+    "closing": "2nd-year IT student from Kazakhstan, building with Django and Flutter.",
     "rights": "All rights reserved."
   }
 }

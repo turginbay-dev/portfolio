@@ -1,8 +1,5 @@
 {
-  "year": "2025 / Ongoing",
-  "previewCode": "QZS-01",
-  "accent": "cyan",
-  "stack": ["Python", "Django", "JavaScript", "HTML", "CSS", "Git"],
+  "stack": ["Python", "Django", "HTML", "CSS", "JavaScript"],
   "links": {
     "demo": "#",
     "github": "#"
@@ -10,192 +7,150 @@
   "locales": {
     "en": {
       "name": "QazSound",
-      "category": "Music Platform",
-      "status": "In development",
-      "cardTagline": "Streaming concept shaped like a real product.",
-      "cardDescription": "A Django-based music platform exploring discovery, playback flow, and content architecture with more product intent than a simple student app.",
-      "cardCta": "Open case study",
-      "headline": "A modern music platform concept designed around discovery, playback, and scalable content structure.",
-      "summary": "QazSound treats interface, content organization, and backend logic as one product system. The goal is to make a student-built platform feel closer to a real media product.",
-      "role": "Full-stack developer",
-      "challenge": "How do you make a student-built music product feel like a platform instead of a page with tracks?",
-      "solution": "By treating discovery, playback, and content structure as a cohesive experience built on Django, not as disconnected screens.",
-      "impact": "The project sharpens backend reasoning, UI hierarchy, and the ability to think about media-heavy products as scalable systems.",
+      "category": "Django music platform",
+      "timeline": "Built in about 1 month",
+      "cardTagline": "Uploads, YouTube audio, favorites, and a custom player.",
+      "cardDescription": "I built QazSound as a one-month Django project to practice a more complete product flow: publishing tracks, handling media, working with likes, and keeping the frontend interactive without relying on a big framework.",
+      "cardCta": "View case study",
+      "headline": "A Django music platform for uploading tracks, importing YouTube audio safely, and keeping a personal favorites library.",
+      "summary": "QazSound combines uploaded tracks and YouTube-based audio in one web app. I used it to practice backend validation, custom frontend interactions, admin tooling, and deploy-ready Django configuration in a project that felt more complete than a basic tutorial build.",
+      "challenge": "I wanted something bigger than a static student project. The goal was to build a working product with content publishing, interaction logic, admin tooling, and deployment preparation in one place.",
+      "solution": "I built it as a modular Django app with separate apps for tracks, users, and interactions, plus a global player, AJAX likes, YouTube metadata preview, and a custom admin dashboard.",
+      "impact": "QazSound helped me practice Django architecture, media handling, frontend state, and deployment setup inside one real project.",
       "metrics": [
         {
-          "label": "Product Lens",
-          "value": "Discovery + Playback"
+          "label": "Build time",
+          "value": "~1 month"
         },
         {
-          "label": "Architecture",
-          "value": "Django Content System"
+          "label": "Backend",
+          "value": "Django"
         },
         {
-          "label": "Direction",
-          "value": "Platform Mindset"
+          "label": "Content",
+          "value": "Upload + YouTube"
         }
       ],
       "goals": [
-        "Build a cleaner listening experience than a typical coursework player.",
-        "Strengthen Django backend thinking through content-heavy product logic.",
-        "Design a system that can later support playlists, search, and richer data states."
+        "Turn classroom ideas into a more production-like implementation.",
+        "Practice Django architecture beyond basic tutorials.",
+        "Work on both backend validation and frontend interaction patterns.",
+        "Learn deployment preparation with static files, environment config, and database switching."
       ],
       "features": [
-        "Structured discovery surface for tracks and collections.",
-        "Playback and downloadable flow prepared for scale.",
-        "Cleaner content hierarchy with product-led navigation.",
-        "UI direction ready for artwork, motion, and richer media states."
+        "Track publishing with upload or YouTube source.",
+        "Favorites and likes with AJAX updates.",
+        "A global audio player with saved playback state.",
+        "Search, filtering, profile settings, and avatar management.",
+        "A custom Django admin dashboard with analytics."
       ],
       "future": [
-        "Add playlists and deeper search.",
-        "Improve artwork treatment and player states.",
-        "Extend content management and recommendation logic."
+        "Docker support.",
+        "A richer API layer.",
+        "Cloud media storage.",
+        "More test coverage and CI/CD automation."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Discovery surface",
-          "description": "A premium first screen for browsing tracks, collections, and new releases."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Playback flow",
-          "description": "A focused listening state that connects interface clarity with stronger player behavior."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Content structure",
-          "description": "A supporting system view showing how media organization can scale behind the UI."
-        }
-      ],
-      "privateNote": "Public demo and repository will connect after the next packaging pass.",
-      "privateLinkLabel": "Private for now"
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Links not added"
     },
     "kz": {
       "name": "QazSound",
-      "category": "Музыка Платформасы",
-      "status": "Әзірленуде",
-      "cardTagline": "Нақты өнім секілді ойластырылған streaming концепті.",
-      "cardDescription": "Discovery, playback flow және content architecture-ды қарапайым студенттік app-тен жоғары product intent-пен зерттейтін Django-негізді музыка платформасы.",
-      "cardCta": "Case study Ашу",
-      "headline": "Discovery, playback және scalable content structure айналасында құрылған заманауи music platform концепті.",
-      "summary": "QazSound interface, content organization және backend logic-ті бір өнім жүйесі ретінде қарайды. Мақсат — студенттік build-ті нақты media product-ке жақын сезіндіру.",
-      "role": "Full-stack developer",
-      "challenge": "Студенттік музыка жобасын жай track тізімі емес, шынайы платформа секілді қалай сезіндіруге болады?",
-      "solution": "Discovery, playback және content structure-ды бөлек экрандар емес, Django үстіндегі бір cohesive experience ретінде қарастыру арқылы.",
-      "impact": "Бұл жоба backend reasoning-ті, UI hierarchy-ді және media-heavy product-терді scalable system ретінде ойлауды күшейтеді.",
+      "category": "Django music platform",
+      "timeline": "Шамамен 1 айда жасалды",
+      "cardTagline": "Upload, YouTube audio, favorites және custom player.",
+      "cardDescription": "QazSound-ты бір айлық Django жобасы ретінде жасадым. Негізгі мақсат - қарапайым static project емес, track publishing, media handling, likes және интерактивті frontend бар толықтау flow құру болды.",
+      "cardCta": "Case study көру",
+      "headline": "Track upload жасауға, YouTube audio-ны қауіпсіз қолдануға және favorites кітапханасын ұстауға арналған Django music platform.",
+      "summary": "QazSound upload жасалған тректер мен YouTube-негізді audio-ны бір web app-ке біріктіреді. Осы жоба арқылы backend validation, custom frontend interaction, admin tooling және deploy-ready Django configuration-ды практикада жасап көрдім.",
+      "challenge": "Маған жай static student project-тен үлкенірек нәрсе керек болды. Бір жерде content publishing, interaction logic, admin tooling және deployment preparation бар жұмыс істейтін жоба жасағым келді.",
+      "solution": "Сондықтан оны tracks, users және interactions деп бөлінген Django app-терімен, global player, AJAX likes, YouTube metadata preview және custom admin dashboard-пен құрдым.",
+      "impact": "QazSound маған Django architecture, media handling, frontend state және deployment setup-ты бір жобаның ішінде практикада көруге көмектесті.",
       "metrics": [
         {
-          "label": "Product Lens",
-          "value": "Discovery + Playback"
+          "label": "Уақыты",
+          "value": "~1 ай"
         },
         {
-          "label": "Architecture",
-          "value": "Django Content System"
+          "label": "Backend",
+          "value": "Django"
         },
         {
-          "label": "Direction",
-          "value": "Platform Mindset"
+          "label": "Контент",
+          "value": "Upload + YouTube"
         }
       ],
       "goals": [
-        "Кәдімгі coursework player-ден таза listening experience құру.",
-        "Content-heavy product logic арқылы Django backend ойлауын күшейту.",
-        "Кейін playlist, search және richer data state-терді көтере алатын жүйе жобалау."
+        "Кластағы теорияны production-like implementation-ға жақындату.",
+        "Django architecture-ны basic tutorial деңгейінен тереңірек практикада көру.",
+        "Backend validation мен frontend interaction pattern-дерін қатар жасау.",
+        "Static files, environment config және database switching арқылы deployment preparation үйрену."
       ],
       "features": [
-        "Track пен collection үшін structured discovery surface.",
-        "Масштабқа дайын playback және downloadable flow.",
-        "Product-led navigation арқылы cleaner content hierarchy.",
-        "Artwork, motion және richer media state-терге дайын UI бағыты."
+        "Upload немесе YouTube source арқылы track publishing.",
+        "AJAX update-пен likes және favorites.",
+        "Playback state сақтайтын global audio player.",
+        "Search, filtering, profile settings және avatar management.",
+        "Analytics бар custom Django admin dashboard."
       ],
       "future": [
-        "Playlist және тереңірек search қосу.",
-        "Artwork treatment пен player state-терін жақсарту.",
-        "Content management пен recommendation logic-ті кеңейту."
+        "Docker support.",
+        "Кеңірек API layer.",
+        "Cloud media storage.",
+        "Көбірек test coverage және CI/CD automation."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Discovery surface",
-          "description": "Track, collection және new release-терді көрсететін premium алғашқы экран."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Playback flow",
-          "description": "Interface clarity мен мықты player behavior-ді біріктіретін focused listening state."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Content structure",
-          "description": "UI артындағы media organization қалай масштабталатынын көрсететін supporting system view."
-        }
-      ],
-      "privateNote": "Public demo мен repository келесі packaging pass-тен кейін қосылады.",
-      "privateLinkLabel": "Әзірге private"
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Сілтемелер жоқ"
     },
     "ru": {
       "name": "QazSound",
-      "category": "Музыкальная Платформа",
-      "status": "В разработке",
-      "cardTagline": "Streaming-концепт, собранный как реальный продукт.",
-      "cardDescription": "Django-база для музыкальной платформы, которая исследует discovery, playback flow и content architecture с более сильным product intent, чем у обычного студенческого app.",
+      "category": "Django music platform",
+      "timeline": "Сделан примерно за 1 месяц",
+      "cardTagline": "Uploads, YouTube audio, favorites и custom player.",
+      "cardDescription": "Я собрал QazSound как месячный Django-проект, чтобы потренировать более цельный product flow: публикацию треков, media handling, likes и интерактивный frontend без большого framework.",
       "cardCta": "Открыть case study",
-      "headline": "Современный music platform concept, построенный вокруг discovery, playback и scalable content structure.",
-      "summary": "QazSound рассматривает interface, content organization и backend logic как единую продуктовую систему. Задача — приблизить студенческий build к ощущению настоящего media product.",
-      "role": "Full-stack developer",
-      "challenge": "Как сделать так, чтобы студенческий музыкальный проект ощущался платформой, а не страницей с треками?",
-      "solution": "Через подход, где discovery, playback и content structure работают как единый experience на Django, а не как набор разрозненных экранов.",
-      "impact": "Проект усиливает backend reasoning, UI hierarchy и умение мыслить media-heavy продуктами как масштабируемыми системами.",
+      "headline": "Django music platform для загрузки треков, безопасной работы с YouTube audio и личной favorites library.",
+      "summary": "QazSound объединяет uploaded tracks и YouTube-based audio в одном web app. Через этот проект я практиковал backend validation, custom frontend interactions, admin tooling и deploy-ready Django configuration в более цельном формате, чем обычный tutorial build.",
+      "challenge": "Мне хотелось сделать что-то большее, чем просто static student project. Цель была в том, чтобы в одном месте собрать content publishing, interaction logic, admin tooling и deployment preparation.",
+      "solution": "Поэтому я сделал его как modular Django app с отдельными apps для tracks, users и interactions, а также с global player, AJAX likes, YouTube metadata preview и custom admin dashboard.",
+      "impact": "QazSound помог мне на практике пройти через Django architecture, media handling, frontend state и deployment setup внутри одного проекта.",
       "metrics": [
         {
-          "label": "Product Lens",
-          "value": "Discovery + Playback"
+          "label": "Срок",
+          "value": "~1 месяц"
         },
         {
-          "label": "Architecture",
-          "value": "Django Content System"
+          "label": "Backend",
+          "value": "Django"
         },
         {
-          "label": "Direction",
-          "value": "Platform Mindset"
+          "label": "Контент",
+          "value": "Upload + YouTube"
         }
       ],
       "goals": [
-        "Собрать более чистый listening experience, чем у типичного coursework player.",
-        "Усилить Django backend-мышление через content-heavy product logic.",
-        "Спроектировать систему, которая позже выдержит playlists, search и richer data states."
+        "Перевести учебные идеи в более production-like implementation.",
+        "Попрактиковать Django architecture глубже, чем в basic tutorials.",
+        "Поработать одновременно с backend validation и frontend interaction patterns.",
+        "Понять deployment preparation через static files, env config и database switching."
       ],
       "features": [
-        "Структурированная discovery-поверхность для треков и коллекций.",
-        "Playback и downloadable flow с запасом на масштаб.",
-        "Более чистая content hierarchy с product-led navigation.",
-        "UI-направление, готовое к artwork, motion и richer media states."
+        "Track publishing через upload или YouTube source.",
+        "Favorites и likes с AJAX updates.",
+        "Global audio player с сохранением playback state.",
+        "Search, filtering, profile settings и avatar management.",
+        "Custom Django admin dashboard с аналитикой."
       ],
       "future": [
-        "Добавить playlists и более глубокий search.",
-        "Улучшить artwork treatment и player states.",
-        "Расширить content management и recommendation logic."
+        "Docker support.",
+        "Более богатый API layer.",
+        "Cloud media storage.",
+        "Больше test coverage и CI/CD automation."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Discovery surface",
-          "description": "Премиальный первый экран для browsing треков, коллекций и новых релизов."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Playback flow",
-          "description": "Сфокусированное listening state, которое соединяет ясность интерфейса и более сильное поведение плеера."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Content structure",
-          "description": "Supporting system view, показывающий, как media organization может масштабироваться за пределами UI."
-        }
-      ],
-      "privateNote": "Публичные demo и repository будут подключены после следующего packaging pass.",
-      "privateLinkLabel": "Пока private"
+      "gallery": [],
+      "privateNote": "",
+      "privateLinkLabel": "Ссылки не добавлены"
     }
   }
 }

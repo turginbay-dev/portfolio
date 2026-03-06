@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="meta.title">Turginbay Bekzat | Cinematic Full-Stack Portfolio</title>
+    <title data-i18n="meta.title">Turginbay Bekzat | Django & Flutter Portfolio</title>
     <meta name="description" content="Project case study for Turginbay Bekzat." data-i18n-content="meta.description" />
-    <meta property="og:title" content="Turginbay Bekzat | Cinematic Full-Stack Portfolio" data-i18n-content="meta.ogTitle" />
+    <meta property="og:title" content="Turginbay Bekzat | Django & Flutter Portfolio" data-i18n-content="meta.ogTitle" />
     <meta property="og:description" content="Project case study." data-i18n-content="meta.ogDescription" />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#050505" />
@@ -73,7 +73,7 @@
               <span class="brand-mark__seal">TB</span>
               <span class="brand-mark__content">
                 <strong>Turginbay Bekzat</strong>
-                <span data-i18n="brand.tagline">Kazakhstan / Web + Mobile / Founder Energy</span>
+                <span data-i18n="brand.tagline">Satbayev University / Kazakhstan</span>
               </span>
             </a>
 
@@ -157,7 +157,7 @@
                 <div class="eyebrow">
                   <span data-i18n="projectPage.overviewEyebrow">Case Study</span>
                 </div>
-                <h1 class="case-title text-balance" data-project-name>Flutter App (Private)</h1>
+                <h1 class="case-title text-balance" data-project-name>NaqUsta</h1>
                 <p class="case-summary text-balance" data-project-headline></p>
                 <p class="case-body text-balance" data-project-summary></p>
 
@@ -167,19 +167,19 @@
                 </div>
 
                 <div class="case-meta-grid">
-                  <article class="case-meta-card">
+                  <article class="case-meta-card" data-project-meta-category>
                     <span class="mono-label" data-i18n="projectPage.categoryLabel">Category</span>
                     <strong data-project-category></strong>
                   </article>
-                  <article class="case-meta-card">
+                  <article class="case-meta-card" data-project-meta-status>
                     <span class="mono-label" data-i18n="projectPage.statusLabel">Status</span>
                     <strong data-project-status></strong>
                   </article>
-                  <article class="case-meta-card">
+                  <article class="case-meta-card" data-project-meta-role>
                     <span class="mono-label" data-i18n="projectPage.roleLabel">Role</span>
                     <strong data-project-role></strong>
                   </article>
-                  <article class="case-meta-card">
+                  <article class="case-meta-card" data-project-meta-timeline>
                     <span class="mono-label" data-i18n="projectPage.timelineLabel">Timeline</span>
                     <strong data-project-year></strong>
                   </article>
@@ -203,22 +203,22 @@
               <article class="case-section panel reveal" data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.summaryLabel">Overview</span>
                 <p class="mt-4 text-balance" data-project-summary></p>
-                <div class="project-card__metrics mt-6" data-project-metrics></div>
+                <div class="project-card__metrics mt-6" data-project-metrics-wrap data-project-metrics></div>
               </article>
 
-              <article class="case-section panel reveal" data-reveal data-spotlight>
+              <article class="case-section panel reveal" data-project-section-goals data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.goalsLabel">Goals</span>
                 <ul class="detail-list" data-project-goals></ul>
               </article>
             </div>
 
             <div class="case-detail-grid mt-6">
-              <article class="case-section panel reveal" data-reveal data-spotlight>
+              <article class="case-section panel reveal" data-project-section-features data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.featuresLabel">Key Features</span>
                 <ul class="detail-list" data-project-features></ul>
               </article>
 
-              <article class="case-section panel reveal" data-reveal data-spotlight>
+              <article class="case-section panel reveal" data-project-section-challenge data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.challengeLabel">Challenge</span>
                 <p class="mt-4 text-balance" data-project-challenge></p>
                 <span class="mono-label mt-6 block" data-i18n="projectPage.solutionLabel">Solution</span>
@@ -228,18 +228,18 @@
               </article>
             </div>
 
-            <article class="case-section panel reveal mt-6" data-reveal data-spotlight>
+            <article class="case-section panel reveal mt-6" data-project-section-gallery data-reveal data-spotlight>
               <span class="mono-label" data-i18n="projectPage.galleryLabel">Selected Frames</span>
               <div class="gallery-grid" data-project-gallery></div>
             </article>
 
             <div class="case-detail-grid mt-6">
-              <article class="case-section panel reveal" data-reveal data-spotlight>
+              <article class="case-section panel reveal" data-project-section-future data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.futureLabel">Future Improvements</span>
                 <ul class="detail-list" data-project-future></ul>
               </article>
 
-              <article class="case-section panel reveal" data-reveal data-spotlight>
+              <article class="case-section panel reveal" data-project-section-links data-reveal data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.linksLabel">Project Links</span>
                 <div class="cta-row">
                   <a href="#" class="button-primary" data-project-demo data-i18n="projectPage.demoCta">Live Demo</a>
@@ -249,7 +249,7 @@
               </article>
             </div>
 
-            <div class="case-navigation reveal" data-reveal>
+            <div class="case-navigation reveal" data-project-section-navigation data-reveal>
               <a href="./qazsound.html" class="case-nav-card panel" data-project-prev data-spotlight>
                 <span class="mono-label" data-i18n="projectPage.previousLabel">Previous Project</span>
                 <strong data-project-prev-title></strong>
@@ -274,7 +274,7 @@
               <div>
                 <p class="font-display text-2xl tracking-tight text-snow">Turginbay Bekzat</p>
                 <p class="mt-2 max-w-2xl text-balance" data-i18n="footer.closing">
-                  Built in Kazakhstan. Aiming at global-level product quality.
+                  2nd-year IT student from Kazakhstan, building with Django and Flutter.
                 </p>
               </div>
               <a href="../index.html#projects" class="button-secondary" data-i18n="projectPage.backHome">Back to portfolio</a>

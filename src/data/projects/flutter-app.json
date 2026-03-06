@@ -1,201 +1,159 @@
 {
-  "year": "2025 / Private Build",
-  "previewCode": "FLT-02",
-  "accent": "violet",
-  "stack": ["Flutter", "Firebase", "JavaScript", "Git", "VS Code"],
+  "stack": ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Firebase Storage"],
   "links": {
     "demo": "#",
-    "github": "#"
+    "github": "https://github.com/TurginbayBekzat/NaqUsta"
   },
   "locales": {
     "en": {
-      "name": "Flutter App (Private)",
-      "category": "Private Mobile App",
-      "status": "Private build",
-      "cardTagline": "Role-based mobile communication with product discipline.",
-      "cardDescription": "A private Flutter build focused on real-time flows, role-aware experience, and a cleaner product architecture than a generic chat demo.",
-      "cardCta": "Open case study",
-      "headline": "A private mobile build exploring role logic, real-time communication, and a more serious product mindset.",
-      "summary": "This Flutter app is treated as a mobile product study rather than a tutorial clone. It focuses on structured communication, privacy-aware flows, and scalable state thinking.",
-      "role": "Mobile product developer",
-      "challenge": "Real-time apps become messy fast when roles, permissions, and flow states are not designed early.",
-      "solution": "The build uses Flutter and Firebase to shape communication around clearer roles, cleaner flows, and controlled product behavior.",
-      "impact": "It strengthens mobile architecture thinking, real-time state handling, and the ability to design private systems with discipline.",
+      "name": "NaqUsta",
+      "category": "Flutter marketplace",
+      "status": "Active development",
+      "timeline": "10 months (active)",
+      "cardTagline": "A Flutter app for finding workers and posting jobs.",
+      "cardDescription": "NaqUsta is the biggest project in my portfolio right now. It’s a service marketplace for construction, repair, and home services, built around real workflows for clients and workers.",
+      "cardCta": "View case study",
+      "headline": "I built NaqUsta as a Flutter marketplace where clients can post jobs and workers can find and respond to them.",
+      "summary": "I’ve been working on NaqUsta for about 10 months. It isn’t a quick prototype. The app covers authentication, role-based onboarding, category and location setup, order publishing, offers, chat entry points, reviews, and Firebase-backed transaction flows.",
+      "challenge": "The real problem is that finding a trusted worker is usually messy. Information is scattered, requests are vague, and there’s often no clear job state once a conversation starts.",
+      "solution": "In NaqUsta, I handled that with structured requests, leaf-level categories, KATO-based location data, role-specific flows, and explicit order states from open to completed.",
+      "impact": "It shows not just UI work, but also domain modeling, security-aware data flows, Firestore rules, and emulator-backed integration tests around critical workflows.",
       "metrics": [
         {
-          "label": "Primary Layer",
-          "value": "Flutter UI"
+          "label": "Development",
+          "value": "10 months"
         },
         {
-          "label": "Data Engine",
-          "value": "Firebase Real-Time"
+          "label": "Dart files",
+          "value": "168"
         },
         {
-          "label": "Product Mode",
-          "value": "Private Role Logic"
+          "label": "Repository files",
+          "value": "300+"
         }
       ],
       "goals": [
-        "Design a private app with clearer role boundaries.",
-        "Build stronger Flutter and Firebase confidence through a real scenario.",
-        "Create a mobile flow that feels product-minded, not experimental."
+        "Make it faster to find a reliable worker for real physical jobs.",
+        "Reduce uncertainty with structured requests, categories, and location data.",
+        "Build a product foundation that can keep growing without rewriting the core flow."
       ],
       "features": [
-        "Role-aware screens and structured communication flow.",
-        "Firebase-backed real-time interaction direction.",
-        "Mobile-first layout thinking with privacy in mind.",
-        "Foundation for richer permissions and moderation later."
+        "Phone-based authentication and role-aware onboarding.",
+        "Separate flows for clients and workers.",
+        "Multilingual category system with leaf-only selection.",
+        "KATO-based location model with coverage modes.",
+        "Order publishing, offers, acceptance, completion, and reviews.",
+        "Critical integration tests with Firebase emulators."
       ],
       "future": [
-        "Refine onboarding and state transitions.",
-        "Expand permission and role management layers.",
-        "Add stronger profile handling and workflow depth."
+        "Advanced chat features like attachments and read receipts.",
+        "Push notifications for offers and status changes.",
+        "Worker ranking and recommendation algorithms.",
+        "Admin moderation tooling, disputes, and payment flow."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Onboarding flow",
-          "description": "A controlled first-touch experience where access, role, and product tone are introduced clearly."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Live communication state",
-          "description": "The key screen where real-time messaging and clarity of interaction must stay balanced."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Role management layer",
-          "description": "A supporting view for permissions, structure, and the private logic behind the app."
-        }
-      ],
-      "privateNote": "The build remains private for now, so the public site focuses on architecture and product thinking rather than full implementation access.",
-      "privateLinkLabel": "Private build"
+      "gallery": [],
+      "privateNote": "The public repository already includes the architecture overview, folder structure, setup flow, and roadmap in detail.",
+      "privateLinkLabel": "GitHub only"
     },
     "kz": {
-      "name": "Flutter App (Private)",
-      "category": "Жеке Mobile App",
-      "status": "Private build",
-      "cardTagline": "Role-based mobile communication және product discipline.",
-      "cardDescription": "Real-time flow, role-aware experience және generic chat demo-дан жоғары cleaner product architecture-ға бағытталған private Flutter build.",
-      "cardCta": "Case study Ашу",
-      "headline": "Role logic, real-time communication және байыптырақ product mindset зерттейтін private mobile build.",
-      "summary": "Бұл Flutter app tutorial clone емес, mobile product study ретінде қаралады. Негізгі фокус — structured communication, privacy-aware flow және scalable state thinking.",
-      "role": "Mobile product developer",
-      "challenge": "Role, permission және flow state ерте жобаланбаса, real-time app-тар тез ретсіз болып кетеді.",
-      "solution": "Build Flutter мен Firebase арқылы communication-ды анық role-дар, cleaner flow және controlled product behavior айналасына жинайды.",
-      "impact": "Бұл жоба mobile architecture thinking-ті, real-time state handling-ті және private system-дерді тәртіппен жобалау қабілетін күшейтеді.",
+      "name": "NaqUsta",
+      "category": "Flutter marketplace",
+      "status": "Active development",
+      "timeline": "10 ай (белсенді)",
+      "cardTagline": "Шебер табуға және тапсырыс жариялауға арналған Flutter қолданбасы.",
+      "cardDescription": "NaqUsta қазір менің портфолиомдағы ең үлкен жоба. Бұл құрылыс, жөндеу және тұрмыстық қызметтерге арналған, клиент пен шебердің нақты workflow-ына құрылған сервис маркетплейс.",
+      "cardCta": "Case study көру",
+      "headline": "NaqUsta-ны клиенттер тапсырыс жариялап, шеберлер оны тауып жауап бере алатын Flutter marketplace ретінде жасадым.",
+      "summary": "NaqUsta-мен шамамен 10 ай жұмыс істеп келемін. Бұл тез жасалған prototype емес. Қолданбада authentication, role-based onboarding, category және location setup, order publishing, offers, chat entry points, reviews және Firebase-ке сүйенген transaction flow бар.",
+      "challenge": "Негізгі мәселе - сенімді шебер табу процесі ретсіз жүреді. Ақпарат әр жерде шашыраңқы, request-тер жиі нақты емес, ал әңгіме басталғаннан кейін job state түсініксіз болып қалады.",
+      "solution": "NaqUsta-да мен оны structured request, leaf-level category, KATO-based location data, role-specific flow және open-нан completed-ке дейінгі нақты order state арқылы шештім.",
+      "impact": "Бұл жоба тек UI емес, domain modeling, security-aware data flow, Firestore rules және критикалық сценарийлерге арналған emulator-backed integration test-терді де көрсетеді.",
       "metrics": [
         {
-          "label": "Primary Layer",
-          "value": "Flutter UI"
+          "label": "Даму уақыты",
+          "value": "10 ай"
         },
         {
-          "label": "Data Engine",
-          "value": "Firebase Real-Time"
+          "label": "Dart файлдары",
+          "value": "168"
         },
         {
-          "label": "Product Mode",
-          "value": "Private Role Logic"
+          "label": "Репозиторий файлдары",
+          "value": "300+"
         }
       ],
       "goals": [
-        "Role boundary-і анық private app жобалау.",
-        "Нақты scenario арқылы Flutter мен Firebase сенімділігін күшейту.",
-        "Experimental емес, product-minded mobile flow құру."
+        "Нақты физикалық жұмыстарға сенімді шебер табуды жылдамдату.",
+        "Structured request, category және location data арқылы белгісіздікті азайту.",
+        "Негізгі flow-ды қайта жазбай-ақ өсіре алатын product foundation құру."
       ],
       "features": [
-        "Role-aware screen-дер және structured communication flow.",
-        "Firebase-backed real-time interaction бағыты.",
-        "Privacy-ге назар аударатын mobile-first layout thinking.",
-        "Кейінгі permission мен moderation үшін негіз."
+        "Phone-based authentication және role-aware onboarding.",
+        "Клиент пен шеберге бөлек flow.",
+        "Leaf-only selection бар multilingual category system.",
+        "Coverage mode-тары бар KATO-based location model.",
+        "Order publishing, offers, acceptance, completion және reviews.",
+        "Firebase emulator арқылы критикалық integration test-тер."
       ],
       "future": [
-        "Onboarding пен state transition-дарды жақсарту.",
-        "Permission және role management layer-лерін кеңейту.",
-        "Profile handling пен workflow depth-ті күшейту."
+        "Attachment және read receipts сияқты кеңейтілген chat мүмкіндіктері.",
+        "Offer мен status change үшін push notifications.",
+        "Worker ranking және recommendation algorithms.",
+        "Admin moderation tooling, disputes және payment flow."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Onboarding flow",
-          "description": "Access, role және product tone анық берілетін controlled first-touch experience."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Live communication state",
-          "description": "Real-time messaging пен interaction clarity теңгерілуі керек негізгі экран."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Role management layer",
-          "description": "Permission, structure және app артындағы private logic-ті көрсететін supporting view."
-        }
-      ],
-      "privateNote": "Build әзірге private, сондықтан public сайт толық implementation емес, architecture мен product thinking-ке назар аударады.",
-      "privateLinkLabel": "Private build"
+      "gallery": [],
+      "privateNote": "Ашық репозиторийдің өзінде architecture overview, folder structure, setup flow және roadmap толық берілген.",
+      "privateLinkLabel": "Тек GitHub"
     },
     "ru": {
-      "name": "Flutter App (Private)",
-      "category": "Приватный Mobile App",
-      "status": "Private build",
-      "cardTagline": "Role-based mobile communication с product discipline.",
-      "cardDescription": "Приватный Flutter build, сфокусированный на real-time flow, role-aware experience и более чистой product architecture, чем у generic chat demo.",
+      "name": "NaqUsta",
+      "category": "Flutter marketplace",
+      "status": "Active development",
+      "timeline": "10 месяцев (активно)",
+      "cardTagline": "Flutter-приложение для поиска мастеров и публикации заказов.",
+      "cardDescription": "NaqUsta сейчас самый большой проект в моем портфолио. Это сервисный marketplace для строительства, ремонта и бытовых услуг, собранный вокруг реальных workflow клиента и мастера.",
       "cardCta": "Открыть case study",
-      "headline": "Приватный mobile build, исследующий role logic, real-time communication и более серьезный product mindset.",
-      "summary": "Этот Flutter app рассматривается как mobile product study, а не как tutorial clone. Фокус — structured communication, privacy-aware flow и scalable state thinking.",
-      "role": "Mobile product developer",
-      "challenge": "Real-time приложения быстро становятся хаотичными, если roles, permissions и flow states не проектируются заранее.",
-      "solution": "Build использует Flutter и Firebase, чтобы собрать communication вокруг более ясных ролей, cleaner flow и контролируемого product behavior.",
-      "impact": "Проект усиливает mobile architecture thinking, real-time state handling и умение дисциплинированно проектировать private systems.",
+      "headline": "Я сделал NaqUsta как Flutter marketplace, где клиенты публикуют заказы, а мастера могут их находить и откликаться.",
+      "summary": "Я работаю над NaqUsta примерно 10 месяцев. Это не быстрый prototype. В приложении есть authentication, role-based onboarding, category и location setup, order publishing, offers, chat entry points, reviews и Firebase-backed transaction flow.",
+      "challenge": "Главная проблема в том, что поиск надежного мастера обычно устроен хаотично. Информация разбросана, requests часто расплывчатые, а после начала общения нет ясного job state.",
+      "solution": "В NaqUsta я решил это через structured requests, leaf-level categories, KATO-based location data, role-specific flows и явные order states от open до completed.",
+      "impact": "Этот проект показывает не только UI, но и domain modeling, security-aware data flows, Firestore rules и emulator-backed integration tests для критических сценариев.",
       "metrics": [
         {
-          "label": "Primary Layer",
-          "value": "Flutter UI"
+          "label": "Разработка",
+          "value": "10 месяцев"
         },
         {
-          "label": "Data Engine",
-          "value": "Firebase Real-Time"
+          "label": "Dart файлы",
+          "value": "168"
         },
         {
-          "label": "Product Mode",
-          "value": "Private Role Logic"
+          "label": "Файлы репозитория",
+          "value": "300+"
         }
       ],
       "goals": [
-        "Спроектировать private app с более четкими role boundaries.",
-        "Укрепить Flutter и Firebase уверенность через реальный сценарий.",
-        "Собрать mobile flow, который ощущается product-minded, а не экспериментальным."
+        "Сделать поиск надежного мастера для реальных задач быстрее.",
+        "Снизить неопределенность через structured requests, categories и location data.",
+        "Собрать product foundation, который можно развивать без переписывания core flow."
       ],
       "features": [
-        "Role-aware screens и structured communication flow.",
-        "Firebase-backed направление для real-time interaction.",
-        "Mobile-first layout thinking с учетом privacy.",
-        "Основа для более богатых permission и moderation слоев позже."
+        "Phone-based authentication и role-aware onboarding.",
+        "Отдельные flow для клиента и мастера.",
+        "Multilingual category system с leaf-only selection.",
+        "KATO-based location model с coverage modes.",
+        "Order publishing, offers, acceptance, completion и reviews.",
+        "Критические integration tests через Firebase emulators."
       ],
       "future": [
-        "Доработать onboarding и state transitions.",
-        "Расширить permission и role management layers.",
-        "Добавить более сильный profile handling и workflow depth."
+        "Расширенные chat features, включая attachments и read receipts.",
+        "Push notifications для offers и смены статусов.",
+        "Worker ranking и recommendation algorithms.",
+        "Admin moderation tooling, disputes и payment flow."
       ],
-      "gallery": [
-        {
-          "label": "Frame 01",
-          "title": "Onboarding flow",
-          "description": "Контролируемый first-touch experience, где доступ, role и тон продукта объясняются ясно."
-        },
-        {
-          "label": "Frame 02",
-          "title": "Live communication state",
-          "description": "Ключевой экран, где real-time messaging и clarity взаимодействия должны оставаться в балансе."
-        },
-        {
-          "label": "Frame 03",
-          "title": "Role management layer",
-          "description": "Supporting view для permissions, structure и private logic внутри приложения."
-        }
-      ],
-      "privateNote": "Build пока остается private, поэтому публичный сайт подчеркивает architecture и product thinking вместо полного доступа к implementation.",
-      "privateLinkLabel": "Private build"
+      "gallery": [],
+      "privateNote": "В публичном репозитории уже подробно описаны architecture overview, folder structure, setup flow и roadmap.",
+      "privateLinkLabel": "Только GitHub"
     }
   }
 }

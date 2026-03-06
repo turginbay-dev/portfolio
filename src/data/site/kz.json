@@ -1,212 +1,212 @@
 {
   "meta": {
-    "title": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
-    "description": "Қазақстаннан шыққан, elite деңгейдегі full-stack бағытқа ұмтылып келе жатқан Turginbay Bekzat үшін жасалған premium dark портфолио.",
-    "ogTitle": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
-    "ogDescription": "Premium developer identity, cinematic dark интерфейс және болашақ full-stack builder үшін айқын өнімдік амбиция."
+    "title": "Turginbay Bekzat | Django және Flutter портфолиосы",
+    "description": "Satbayev University-дің 2-курс IT студенті Turginbay Bekzat-тың Django мен Flutter арқылы жасаған web және mobile жобалары.",
+    "ogTitle": "Turginbay Bekzat | Django және Flutter портфолиосы",
+    "ogDescription": "Turginbay Bekzat-тың NaqUsta, QazSound және Telegram bot жобалары."
   },
   "brand": {
-    "role": "Болашақ Full-Stack Developer",
-    "tagline": "Қазақстан / Web + Mobile / Founder Energy"
+    "role": "Full Stack Web & Flutter Developer",
+    "tagline": "Satbayev University / Kazakhstan"
   },
   "nav": {
     "home": "Басты",
-    "about": "Мен Туралы",
+    "about": "Мен туралы",
     "skills": "Дағдылар",
     "projects": "Жобалар",
     "journey": "Жол",
     "contact": "Байланыс",
-    "cta": "Жұмыстарды Көру"
+    "cta": "Жобалар"
   },
   "hero": {
-    "eyebrow": "Қазақстан / Satbayev University / 2-Курс",
-    "title": "<span class=\"accent\">Өткір интерфейстерді</span> жасаймын. Маңызды жүйелерді құрамын.",
-    "body": "Мен заманауи цифрлық тәжірибелерді дәлдікпен, амбициямен және ұзақ мерзімді оймен жасаймын. Мақсат тек студенттік портфолио емес, шынайы қолданушыларға дайын көрінетін өнімдер құру.",
-    "primaryCta": "Жобаларды Көру",
+    "eyebrow": "Satbayev University-дің 2-курс IT студенті",
+    "title": "Мен Django және Flutter арқылы web пен mobile жобалар жасаймын.",
+    "body": "Менің атым Бекзат, Қазақстаннанмын. Қазір негізгі бағытым - Django арқылы full-stack web development және Flutter арқылы mobile apps. Жеке жобалар арқылы UI, backend logic және product structure қалай бірге жұмыс істейтінін түсінуге тырысамын.",
+    "primaryCta": "Жобаларды көру",
     "secondaryCta": "Байланысу",
-    "statusLabel": "Қазіргі сигнал",
-    "statusValue": "Satbayev University-де оқып жүріп, web және mobile бағыты бар нақты жобалар құрып жатырмын.",
-    "statusNote": "Негізгі мақсат айқын: elite full-stack деңгейі, таза product taste және уақыт өте күшейетін тәртіпті орындау.",
-    "signatureLabel": "Signature Visual",
-    "signatureTitle": "Signal chamber",
-    "signatureBody": "Hero ашылған сәттен бастап бетке техникалық, тірі және саналы әсер беретін ұстамды motion field.",
+    "statusLabel": "Қазір",
+    "statusValue": "Қазір Clean Architecture, UI/UX design және scalable backend systems бағыттарына көбірек көңіл бөліп жүрмін.",
+    "statusNote": "Ұзақ мерзімді мақсатым - world-class senior full-stack developer болу.",
+    "signatureLabel": "Бұл портфолио",
+    "signatureTitle": "Нақты жобаларға құрылған",
+    "signatureBody": "Мұндағы барлық материал өзім жасаған және уақыт өте толықтырған жобаларға негізделген.",
     "stats": [
       {
-        "label": "База",
+        "label": "Орналасу",
         "value": "Қазақстан"
       },
-      {
-        "label": "Бағыт",
-        "value": "Full-Stack + Mobile"
-      },
-      {
-        "label": "Режим",
-        "value": "Нақты Жобалар"
-      }
-    ],
-    "pills": ["KZ / RU / EN", "Python + Django", "Flutter + Firebase", "Founder Energy"],
-    "metrics": [
       {
         "label": "Университет",
         "value": "Satbayev University"
       },
       {
         "label": "Кезең",
-        "value": "2-Курс"
+        "value": "2-курс"
+      }
+    ],
+    "pills": ["Django", "Flutter", "Firebase", "Python"],
+    "metrics": [
+      {
+        "label": "Бағыт",
+        "value": "Full-stack web"
+      },
+      {
+        "label": "Mobile",
+        "value": "Flutter apps"
       },
       {
         "label": "Фокус",
-        "value": "Scalable Product Thinking"
+        "value": "Clean Architecture"
       }
     ],
     "log": [
-      "/init ambition.signal",
-      "load interface.precision",
-      "compile backend.depth",
-      "deploy long_term.vision"
+      "Django",
+      "Flutter",
+      "UI/UX design",
+      "Scalable backends"
     ]
   },
   "about": {
-    "eyebrow": "Мен Туралы",
-    "title": "Жолдың басында. Бірақ стандарт қазірдің өзінде жоғары.",
-    "lead": "Turginbay Bekzat — Қазақстаннан шыққан жас IT студент, full-stack тереңдікке байыппен, тәртіппен және modern product quality-ге мықты көзқараспен келе жатқан адам.",
-    "introLabel": "Профиль",
-    "introBody": "Мақсат тәжірибелі болып көріну емес. Мақсат — өнімдерді таза, пайдалы және scalable етіп жасай алатын әдеттерді, талғамды және техникалық ауқымды қалыптастыру.",
-    "philosophyLabel": "Mindset",
-    "philosophyBody": "Миссия кездейсоқ құралдарды жинау емес. Миссия — product judgment, engineering depth және толық цифрлық жүйелерді басынан аяғына дейін жасай алу қабілетін дамыту.",
-    "quote": "Адамдар сенетін, пайдаланатын және есте сақтайтын өнімдер жасайтын developer болу үшін skillset құрып жатырмын.",
+    "eyebrow": "Мен туралы",
+    "title": "Әлі бастапқы кезеңдемін, бірақ толық жобалар жасаған ұнайды.",
+    "lead": "Мен Satbayev University-де Information Technology оқимын және web пен mobile development-ті жеке жобалар арқылы дамытып жүрмін.",
+    "introLabel": "Қысқаша",
+    "introBody": "Қазіргі негізгі жолым - Django арқылы full-stack web development және Flutter арқылы mobile apps.",
+    "philosophyLabel": "Қазір нені үйреніп жүрмін",
+    "philosophyBody": "Қазір көп уақытым Clean Architecture, UI/UX design және scalable backend systems тақырыптарына кетіп жүр.",
+    "quote": "Маған clean user interfaces пен solid databases арасындағы байланысты құру ұнайды.",
     "stats": [
       {
         "label": "Университет",
         "value": "Satbayev University"
       },
       {
-        "label": "Оқу Кезеңі",
-        "value": "2-Курс IT Студент"
+        "label": "Кезең",
+        "value": "2-курс студенті"
       },
       {
         "label": "Бағыт",
-        "value": "Full-Stack Path"
+        "value": "Information Technology"
       },
       {
-        "label": "Қазіргі Режим",
-        "value": "Нақты Жобалар Құру"
+        "label": "Мақсат",
+        "value": "Senior full-stack developer"
       }
     ],
     "identity": [
       {
-        "label": "База",
+        "label": "Негіз",
         "value": "Қазақстан",
-        "note": "Жергілікті тамыр, жаһандық техникалық амбиция."
-      },
-      {
-        "label": "Білім",
-        "value": "Satbayev University",
-        "note": "2-курс IT бағыты және байыпты өсу ниеті."
+        "note": "Оқып та, жобаларымды да осы жерден жасап жүрмін."
       },
       {
         "label": "Бағыт",
-        "value": "Web + Mobile",
-        "note": "Full-stack жүйелер, product UI және тәртіпті iteration."
+        "value": "Django + Flutter",
+        "note": "Қазір мен үшін web пен mobile осы екі бағытпен жүріп жатыр."
+      },
+      {
+        "label": "Тәсіл",
+        "value": "Жоба арқылы үйрену",
+        "note": "Маған жеке-жеке жаттығудан гөрі толық жоба жасау көбірек көмектеседі."
       }
     ]
   },
   "skills": {
     "eyebrow": "Дағдылар / Stack",
-    "title": "Нақты өнім құруға бейімделген стек.",
-    "lead": "Технологиялар практикалық, бірақ стандарт premium: таза интерфейс, мықты backend логикасы, mobile exploration және тәртіпті toolchain.",
-    "labLabel": "Жұмыс Стилі",
-    "labTitle": "Стек қалай күшейіп жатыр",
-    "labBody": "Мұндағы әр құрал жай тізім ұлғайту үшін емес, жақсырақ өнім шығару үшін қолданылады.",
+    "title": "Қазір ең көп қолданатын құралдарым.",
+    "lead": "Жұмысымның көбі web жағында Django, mobile жағында Flutter төңірегінде, ал оның айналасында негізгі frontend және tooling бар.",
+    "labLabel": "Қазіргі бағыт",
+    "labTitle": "Нені күшейтіп жүрмін",
+    "labBody": "Негізгі стекпен қатар жобаны таза және өсіруге ыңғайлы ететін тұстарды да бөлек үйреніп жүрмін.",
     "groups": [
       {
-        "label": "01 / Frontend",
-        "title": "Құрылымы бар таза интерфейстер",
-        "description": "Заманауи layout, responsive орындау және саналы интерфейс айқындығы.",
-        "items": ["JavaScript", "HTML", "CSS"]
+        "label": "01 / Backend",
+        "title": "Python және Django",
+        "description": "Қазір web backend жағында ең көп сүйенетін бағытым осы.",
+        "items": ["Python", "Django"]
       },
       {
-        "label": "02 / Backend",
-        "title": "Масштабталатын логика",
-        "description": "Python, Django және анағұрлым таза product architecture негізіндегі backend ойлау.",
-        "items": ["Python", "Django", "System Logic"]
+        "label": "02 / Mobile",
+        "title": "Flutter және Firebase",
+        "description": "Mobile жобаларда Flutter қолданамын, ал auth, data және storage керек болса Firebase пайдаланамын.",
+        "items": ["Flutter", "Firebase"]
       },
       {
-        "label": "03 / Mobile",
-        "title": "Браузерден тыс өнімдік бағыт",
-        "description": "Flutter мен Firebase real-time flow, mobile UX және role-based system-дерді зерттеу үшін.",
-        "items": ["Flutter", "Firebase", "Mobile Flow"]
+        "label": "03 / Frontend",
+        "title": "HTML, CSS, JavaScript",
+        "description": "Web жобаларда негіздерді өзім түсініп жасаған ұнайды, бәрін үлкен framework артына жасыра бергім келмейді.",
+        "items": ["HTML", "CSS", "JavaScript"]
       },
       {
         "label": "04 / Tools",
-        "title": "Сенімді build routine",
-        "description": "Consistency, version control және focused development cycle-ді ұстайтын құралдар.",
+        "title": "Күнделікті құралдар",
+        "description": "Оқу мен жобаларда үнемі қолданатын негізгі құралдарым осылар.",
         "items": ["Git", "Linux", "VS Code"]
       }
     ],
     "labPills": [
-      "Version control discipline",
-      "Linux comfort",
-      "Readable code habits",
-      "Iterative product thinking"
+      "Clean Architecture",
+      "UI/UX design",
+      "Scalable backend systems",
+      "Real project workflow"
     ]
   },
   "projectsSection": {
-    "eyebrow": "Негізгі Жобалар",
-    "title": "Өнімдік амбициясы қазірдің өзінде көрінетін үш жоба.",
-    "lead": "Әр жоба mini case study сияқты берілген: мақсаты анық, құрылымы таза, бағыты нақты."
+    "eyebrow": "Негізгі жобалар",
+    "title": "Қазіргі деңгейімді жақсы көрсететін үш жоба.",
+    "lead": "Ауқымы әртүрлі, бірақ әр жоба маған structure, backend logic немесе workflow жағынан нақты бір нәрсе үйретті."
   },
   "journey": {
     "eyebrow": "Жол / Roadmap",
-    "title": "Elite full-stack деңгейіне бағытталған roadmap.",
-    "lead": "Жол саналы құрылған: іргетасты күшейту, нақты жобалар шығару, interface quality-ді system logic-пен қосу және стандартты үнемі көтеру.",
-    "closingLabel": "Trajectory",
-    "closingTitle": "Ұзақ мерзімді бағыт",
-    "closingBody": "Финал мақсат айқын: engineering depth, design taste және founder-level ownership бар polished digital product-тер құру.",
+    "title": "Қайдамын, нені үйреніп жүрмін, қайда барғым келеді.",
+    "lead": "Мұны қатаң жоспар деп емес, қазір оқып жатқаным мен жасап жүрген жобаларымнан көрінетін айқын бағыт деп қараймын.",
+    "closingLabel": "Ұзақ мерзім",
+    "closingTitle": "Мақсат",
+    "closingBody": "Web, mobile, UI және backend бір жобаның ішінде табиғи сезілгенше жасай бергім келеді.",
     "phases": [
       {
-        "phase": "Phase 01",
-        "status": "Қазір",
-        "title": "Негізді күшейту",
-        "body": "Тұрақты практика арқылы программалау негіздерін, frontend орындауды және backend reasoning-ті нығайту.",
-        "meta": "Қазіргі фокус"
+        "phase": "Қазір",
+        "status": "Білім",
+        "title": "Satbayev University-дің 2-курс IT студентімін",
+        "body": "Қазіргі негізім - университеттегі оқу және сабақтан тыс өзім жасайтын жобалар.",
+        "meta": "Қазіргі кезең"
       },
       {
-        "phase": "Phase 02",
-        "status": "Құрылуда",
-        "title": "Нақты жобаларды шығару",
-        "body": "Үйренуді case study-ге, интерфейске, product logic-ке және мықты engineering habit-ке айналдыру.",
-        "meta": "Белсенді build"
+        "phase": "Бағыт",
+        "status": "Негізгі стек",
+        "title": "Full-stack web және mobile development",
+        "body": "Web жағында Django, mobile жағында Flutter - қазір негізгі бағытым осы.",
+        "meta": "Немен жұмыс істеймін"
       },
       {
-        "phase": "Phase 03",
-        "status": "Келесі",
-        "title": "Full-stack сенімділігін кеңейту",
-        "body": "Backend system, API және frontend-ті mature әрі cohesive өнімдерге біріктіру.",
-        "meta": "System depth"
+        "phase": "Үйрену",
+        "status": "Қазіргі фокус",
+        "title": "Clean Architecture, UI/UX, scalable backends",
+        "body": "Қазір жобаның сапасын өзгертіп жіберетін тұстар ретінде осы бағыттарға көбірек мән беріп жүрмін.",
+        "meta": "Нені зерттеп жүрмін"
       },
       {
-        "phase": "Phase 04",
-        "status": "North star",
-        "title": "Elite деңгейде жұмыс істеу",
-        "body": "Өнім сапасы, техникалық тереңдік және орындау тәртібі бірдей сезілетін деңгейге жету.",
-        "meta": "Ұзақ амбиция"
+        "phase": "Мақсат",
+        "status": "Ұзақ мерзім",
+        "title": "World-class senior full-stack developer болу",
+        "body": "Сол деңгейге нақты жобалар мен жақсы инженерлік әдеттер арқылы біртіндеп жеткім келеді.",
+        "meta": "Карьера мақсаты"
       }
     ]
   },
   "contact": {
     "eyebrow": "Байланыс",
-    "title": "Байсалды builder-лерге, болашақ серіктестерге және нақты әңгімелерге ашық.",
-    "lead": "Public identity әлі өсіп жатыр, бірақ contact layer жұмыстың өзі сияқты: таза, саналы және өсуге дайын.",
-    "primaryCta": "GitHub Ашу",
-    "secondaryCta": "Жобаларға Қайту",
-    "footnote": "Public profile stack өскен сайын қосымша сілтемелер жалғанады.",
+    "title": "Егер хабарласқыңыз келсе, мен шын қолданатын сілтемелер осылар.",
+    "lead": "Кодты көбіне GitHub-та ұстаймын. Ал LinkedIn, Instagram және email арқылы тікелей байланысуға болады.",
+    "primaryCta": "GitHub ашу",
+    "secondaryCta": "Жобаларға қайту",
+    "footnote": "Бұл сілтемелер қазіргі ашық профилдерімнен алынған.",
     "cards": [
       {
         "key": "github",
         "label": "GitHub",
-        "title": "Repository signal",
-        "body": "Код, project structure және салынып жатқан жұмыстың public ізі.",
+        "title": "Код және репозиторийлер",
+        "body": "Не жасап жүргенімді және жобаларды қалай құрылымдайтынымды ең жақсы осы жерден көруге болады.",
         "href": "https://github.com/turginbay-dev",
         "action": "Профильді ашу",
         "available": true
@@ -215,56 +215,56 @@
         "key": "linkedin",
         "label": "LinkedIn",
         "title": "Кәсіби профиль",
-        "body": "Networking пен болашақ collaboration үшін сақталған жинақы кәсіби identity.",
-        "href": "#",
-        "action": "Private / pending",
-        "available": false
+        "body": "Кәсіби жағынан қарағыңыз келсе, ең дұрыс жер - LinkedIn.",
+        "href": "https://www.linkedin.com/in/bekzat-turginbay-75b5a4355?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxaCT1nCgRw2T6gnnwTP90g%3D%3D",
+        "action": "LinkedIn ашу",
+        "available": true
       },
       {
         "key": "instagram",
         "label": "Instagram",
-        "title": "Жеке қабат",
-        "body": "Premium техникалық tone-ды бұзбайтын жұмсақ brand channel ретінде дайындалған.",
-        "href": "#",
-        "action": "Private / pending",
-        "available": false
+        "title": "Жеке аккаунт",
+        "body": "Жеке парақшамды да осы жерден қарай аласыз.",
+        "href": "https://www.instagram.com/turginbay_?igsh=a3gzbTA1azdrazl2utm_source=qr",
+        "action": "Instagram ашу",
+        "available": true
       },
       {
         "key": "email",
         "label": "Email",
-        "title": "Тікелей арна",
-        "body": "Шынайы мүмкіндік пен байсалды outreach үшін ең тура жол ретінде дайындалған.",
-        "href": "#",
-        "action": "Сұраныс бойынша",
-        "available": false
+        "title": "Тікелей байланыс",
+        "body": "Хабарласудың ең қарапайым жолы керек болса, осы email ашық профилімде көрсетілген.",
+        "href": "mailto:bekzattursi25nbai@gmail.com",
+        "action": "Email жазу",
+        "available": true
       }
     ]
   },
   "projectPage": {
-    "backHome": "Портфолиоға Қайту",
+    "backHome": "Портфолиоға қайту",
     "overviewEyebrow": "Case Study",
     "stackLabel": "Tech Stack",
     "roleLabel": "Рөл",
-    "statusLabel": "Статус",
-    "timelineLabel": "Уақыт",
+    "statusLabel": "Күйі",
+    "timelineLabel": "Уақыты",
     "categoryLabel": "Категория",
-    "summaryLabel": "Шолу",
+    "summaryLabel": "Қысқаша",
     "goalsLabel": "Мақсаттар",
-    "featuresLabel": "Негізгі Функциялар",
-    "challengeLabel": "Қиындық",
-    "solutionLabel": "Шешім",
-    "impactLabel": "Маңыздылығы",
-    "futureLabel": "Келесі Жақсартулар",
-    "galleryLabel": "Таңдалған Кадрлар",
-    "linksLabel": "Жоба Сілтемелері",
+    "featuresLabel": "Негізгі мүмкіндіктер",
+    "challengeLabel": "Мәселе",
+    "solutionLabel": "Қалай шештім",
+    "impactLabel": "Неге маңызды",
+    "futureLabel": "Келесі қадамдар",
+    "galleryLabel": "Скрин / Ескертпе",
+    "linksLabel": "Жоба сілтемелері",
     "demoCta": "Live Demo",
     "githubCta": "GitHub Repo",
-    "navigationEyebrow": "Келесі Навигация",
-    "previousLabel": "Алдыңғы Жоба",
-    "nextLabel": "Келесі Жоба"
+    "navigationEyebrow": "Жоба навигациясы",
+    "previousLabel": "Алдыңғы жоба",
+    "nextLabel": "Келесі жоба"
   },
   "footer": {
-    "closing": "Қазақстанда жасалған. Жаһандық деңгейдегі product quality-ге бағытталған.",
+    "closing": "Қазақстандағы 2-курс IT студенті. Django және Flutter арқылы жобалар жасап жүрмін.",
     "rights": "Барлық құқық қорғалған."
   }
 }
