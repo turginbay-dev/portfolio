@@ -1,0 +1,201 @@
+{
+  "year": "2025 / Private Build",
+  "previewCode": "FLT-02",
+  "accent": "violet",
+  "stack": ["Flutter", "Firebase", "JavaScript", "Git", "VS Code"],
+  "links": {
+    "demo": "#",
+    "github": "#"
+  },
+  "locales": {
+    "en": {
+      "name": "Flutter App (Private)",
+      "category": "Private Mobile App",
+      "status": "Private build",
+      "cardTagline": "Role-based mobile communication with product discipline.",
+      "cardDescription": "A private Flutter build focused on real-time flows, role-aware experience, and a cleaner product architecture than a generic chat demo.",
+      "cardCta": "Open case study",
+      "headline": "A private mobile build exploring role logic, real-time communication, and a more serious product mindset.",
+      "summary": "This Flutter app is treated as a mobile product study rather than a tutorial clone. It focuses on structured communication, privacy-aware flows, and scalable state thinking.",
+      "role": "Mobile product developer",
+      "challenge": "Real-time apps become messy fast when roles, permissions, and flow states are not designed early.",
+      "solution": "The build uses Flutter and Firebase to shape communication around clearer roles, cleaner flows, and controlled product behavior.",
+      "impact": "It strengthens mobile architecture thinking, real-time state handling, and the ability to design private systems with discipline.",
+      "metrics": [
+        {
+          "label": "Primary Layer",
+          "value": "Flutter UI"
+        },
+        {
+          "label": "Data Engine",
+          "value": "Firebase Real-Time"
+        },
+        {
+          "label": "Product Mode",
+          "value": "Private Role Logic"
+        }
+      ],
+      "goals": [
+        "Design a private app with clearer role boundaries.",
+        "Build stronger Flutter and Firebase confidence through a real scenario.",
+        "Create a mobile flow that feels product-minded, not experimental."
+      ],
+      "features": [
+        "Role-aware screens and structured communication flow.",
+        "Firebase-backed real-time interaction direction.",
+        "Mobile-first layout thinking with privacy in mind.",
+        "Foundation for richer permissions and moderation later."
+      ],
+      "future": [
+        "Refine onboarding and state transitions.",
+        "Expand permission and role management layers.",
+        "Add stronger profile handling and workflow depth."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Onboarding flow",
+          "description": "A controlled first-touch experience where access, role, and product tone are introduced clearly."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Live communication state",
+          "description": "The key screen where real-time messaging and clarity of interaction must stay balanced."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Role management layer",
+          "description": "A supporting view for permissions, structure, and the private logic behind the app."
+        }
+      ],
+      "privateNote": "The build remains private for now, so the public site focuses on architecture and product thinking rather than full implementation access.",
+      "privateLinkLabel": "Private build"
+    },
+    "kz": {
+      "name": "Flutter App (Private)",
+      "category": "Жеке Mobile App",
+      "status": "Private build",
+      "cardTagline": "Role-based mobile communication және product discipline.",
+      "cardDescription": "Real-time flow, role-aware experience және generic chat demo-дан жоғары cleaner product architecture-ға бағытталған private Flutter build.",
+      "cardCta": "Case study Ашу",
+      "headline": "Role logic, real-time communication және байыптырақ product mindset зерттейтін private mobile build.",
+      "summary": "Бұл Flutter app tutorial clone емес, mobile product study ретінде қаралады. Негізгі фокус — structured communication, privacy-aware flow және scalable state thinking.",
+      "role": "Mobile product developer",
+      "challenge": "Role, permission және flow state ерте жобаланбаса, real-time app-тар тез ретсіз болып кетеді.",
+      "solution": "Build Flutter мен Firebase арқылы communication-ды анық role-дар, cleaner flow және controlled product behavior айналасына жинайды.",
+      "impact": "Бұл жоба mobile architecture thinking-ті, real-time state handling-ті және private system-дерді тәртіппен жобалау қабілетін күшейтеді.",
+      "metrics": [
+        {
+          "label": "Primary Layer",
+          "value": "Flutter UI"
+        },
+        {
+          "label": "Data Engine",
+          "value": "Firebase Real-Time"
+        },
+        {
+          "label": "Product Mode",
+          "value": "Private Role Logic"
+        }
+      ],
+      "goals": [
+        "Role boundary-і анық private app жобалау.",
+        "Нақты scenario арқылы Flutter мен Firebase сенімділігін күшейту.",
+        "Experimental емес, product-minded mobile flow құру."
+      ],
+      "features": [
+        "Role-aware screen-дер және structured communication flow.",
+        "Firebase-backed real-time interaction бағыты.",
+        "Privacy-ге назар аударатын mobile-first layout thinking.",
+        "Кейінгі permission мен moderation үшін негіз."
+      ],
+      "future": [
+        "Onboarding пен state transition-дарды жақсарту.",
+        "Permission және role management layer-лерін кеңейту.",
+        "Profile handling пен workflow depth-ті күшейту."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Onboarding flow",
+          "description": "Access, role және product tone анық берілетін controlled first-touch experience."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Live communication state",
+          "description": "Real-time messaging пен interaction clarity теңгерілуі керек негізгі экран."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Role management layer",
+          "description": "Permission, structure және app артындағы private logic-ті көрсететін supporting view."
+        }
+      ],
+      "privateNote": "Build әзірге private, сондықтан public сайт толық implementation емес, architecture мен product thinking-ке назар аударады.",
+      "privateLinkLabel": "Private build"
+    },
+    "ru": {
+      "name": "Flutter App (Private)",
+      "category": "Приватный Mobile App",
+      "status": "Private build",
+      "cardTagline": "Role-based mobile communication с product discipline.",
+      "cardDescription": "Приватный Flutter build, сфокусированный на real-time flow, role-aware experience и более чистой product architecture, чем у generic chat demo.",
+      "cardCta": "Открыть case study",
+      "headline": "Приватный mobile build, исследующий role logic, real-time communication и более серьезный product mindset.",
+      "summary": "Этот Flutter app рассматривается как mobile product study, а не как tutorial clone. Фокус — structured communication, privacy-aware flow и scalable state thinking.",
+      "role": "Mobile product developer",
+      "challenge": "Real-time приложения быстро становятся хаотичными, если roles, permissions и flow states не проектируются заранее.",
+      "solution": "Build использует Flutter и Firebase, чтобы собрать communication вокруг более ясных ролей, cleaner flow и контролируемого product behavior.",
+      "impact": "Проект усиливает mobile architecture thinking, real-time state handling и умение дисциплинированно проектировать private systems.",
+      "metrics": [
+        {
+          "label": "Primary Layer",
+          "value": "Flutter UI"
+        },
+        {
+          "label": "Data Engine",
+          "value": "Firebase Real-Time"
+        },
+        {
+          "label": "Product Mode",
+          "value": "Private Role Logic"
+        }
+      ],
+      "goals": [
+        "Спроектировать private app с более четкими role boundaries.",
+        "Укрепить Flutter и Firebase уверенность через реальный сценарий.",
+        "Собрать mobile flow, который ощущается product-minded, а не экспериментальным."
+      ],
+      "features": [
+        "Role-aware screens и structured communication flow.",
+        "Firebase-backed направление для real-time interaction.",
+        "Mobile-first layout thinking с учетом privacy.",
+        "Основа для более богатых permission и moderation слоев позже."
+      ],
+      "future": [
+        "Доработать onboarding и state transitions.",
+        "Расширить permission и role management layers.",
+        "Добавить более сильный profile handling и workflow depth."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Onboarding flow",
+          "description": "Контролируемый first-touch experience, где доступ, role и тон продукта объясняются ясно."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Live communication state",
+          "description": "Ключевой экран, где real-time messaging и clarity взаимодействия должны оставаться в балансе."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Role management layer",
+          "description": "Supporting view для permissions, structure и private logic внутри приложения."
+        }
+      ],
+      "privateNote": "Build пока остается private, поэтому публичный сайт подчеркивает architecture и product thinking вместо полного доступа к implementation.",
+      "privateLinkLabel": "Private build"
+    }
+  }
+}

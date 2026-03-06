@@ -1,1 +1,59 @@
-/* Custom utility styles */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mono-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #697282;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.42rem 0.72rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #9fa8b7;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.section-anchor-offset {
+  scroll-margin-top: 7.5rem;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #7ee7ff 0%, #f5f7fa 42%, #8b7cff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.link-inline {
+  color: #7ee7ff;
+  text-decoration: none;
+}
+
+.link-inline:hover {
+  color: #f5f7fa;
+}

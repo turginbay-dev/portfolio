@@ -1,1 +1,270 @@
-{}
+{
+  "meta": {
+    "title": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
+    "description": "Қазақстаннан шыққан, elite деңгейдегі full-stack бағытқа ұмтылып келе жатқан Turginbay Bekzat үшін жасалған premium dark портфолио.",
+    "ogTitle": "Turginbay Bekzat | Cinematic Full-Stack Portfolio",
+    "ogDescription": "Premium developer identity, cinematic dark интерфейс және болашақ full-stack builder үшін айқын өнімдік амбиция."
+  },
+  "brand": {
+    "role": "Болашақ Full-Stack Developer",
+    "tagline": "Қазақстан / Web + Mobile / Founder Energy"
+  },
+  "nav": {
+    "home": "Басты",
+    "about": "Мен Туралы",
+    "skills": "Дағдылар",
+    "projects": "Жобалар",
+    "journey": "Жол",
+    "contact": "Байланыс",
+    "cta": "Жұмыстарды Көру"
+  },
+  "hero": {
+    "eyebrow": "Қазақстан / Satbayev University / 2-Курс",
+    "title": "<span class=\"accent\">Өткір интерфейстерді</span> жасаймын. Маңызды жүйелерді құрамын.",
+    "body": "Мен заманауи цифрлық тәжірибелерді дәлдікпен, амбициямен және ұзақ мерзімді оймен жасаймын. Мақсат тек студенттік портфолио емес, шынайы қолданушыларға дайын көрінетін өнімдер құру.",
+    "primaryCta": "Жобаларды Көру",
+    "secondaryCta": "Байланысу",
+    "statusLabel": "Қазіргі сигнал",
+    "statusValue": "Satbayev University-де оқып жүріп, web және mobile бағыты бар нақты жобалар құрып жатырмын.",
+    "statusNote": "Негізгі мақсат айқын: elite full-stack деңгейі, таза product taste және уақыт өте күшейетін тәртіпті орындау.",
+    "signatureLabel": "Signature Visual",
+    "signatureTitle": "Signal chamber",
+    "signatureBody": "Hero ашылған сәттен бастап бетке техникалық, тірі және саналы әсер беретін ұстамды motion field.",
+    "stats": [
+      {
+        "label": "База",
+        "value": "Қазақстан"
+      },
+      {
+        "label": "Бағыт",
+        "value": "Full-Stack + Mobile"
+      },
+      {
+        "label": "Режим",
+        "value": "Нақты Жобалар"
+      }
+    ],
+    "pills": ["KZ / RU / EN", "Python + Django", "Flutter + Firebase", "Founder Energy"],
+    "metrics": [
+      {
+        "label": "Университет",
+        "value": "Satbayev University"
+      },
+      {
+        "label": "Кезең",
+        "value": "2-Курс"
+      },
+      {
+        "label": "Фокус",
+        "value": "Scalable Product Thinking"
+      }
+    ],
+    "log": [
+      "/init ambition.signal",
+      "load interface.precision",
+      "compile backend.depth",
+      "deploy long_term.vision"
+    ]
+  },
+  "about": {
+    "eyebrow": "Мен Туралы",
+    "title": "Жолдың басында. Бірақ стандарт қазірдің өзінде жоғары.",
+    "lead": "Turginbay Bekzat — Қазақстаннан шыққан жас IT студент, full-stack тереңдікке байыппен, тәртіппен және modern product quality-ге мықты көзқараспен келе жатқан адам.",
+    "introLabel": "Профиль",
+    "introBody": "Мақсат тәжірибелі болып көріну емес. Мақсат — өнімдерді таза, пайдалы және scalable етіп жасай алатын әдеттерді, талғамды және техникалық ауқымды қалыптастыру.",
+    "philosophyLabel": "Mindset",
+    "philosophyBody": "Миссия кездейсоқ құралдарды жинау емес. Миссия — product judgment, engineering depth және толық цифрлық жүйелерді басынан аяғына дейін жасай алу қабілетін дамыту.",
+    "quote": "Адамдар сенетін, пайдаланатын және есте сақтайтын өнімдер жасайтын developer болу үшін skillset құрып жатырмын.",
+    "stats": [
+      {
+        "label": "Университет",
+        "value": "Satbayev University"
+      },
+      {
+        "label": "Оқу Кезеңі",
+        "value": "2-Курс IT Студент"
+      },
+      {
+        "label": "Бағыт",
+        "value": "Full-Stack Path"
+      },
+      {
+        "label": "Қазіргі Режим",
+        "value": "Нақты Жобалар Құру"
+      }
+    ],
+    "identity": [
+      {
+        "label": "База",
+        "value": "Қазақстан",
+        "note": "Жергілікті тамыр, жаһандық техникалық амбиция."
+      },
+      {
+        "label": "Білім",
+        "value": "Satbayev University",
+        "note": "2-курс IT бағыты және байыпты өсу ниеті."
+      },
+      {
+        "label": "Бағыт",
+        "value": "Web + Mobile",
+        "note": "Full-stack жүйелер, product UI және тәртіпті iteration."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Дағдылар / Stack",
+    "title": "Нақты өнім құруға бейімделген стек.",
+    "lead": "Технологиялар практикалық, бірақ стандарт premium: таза интерфейс, мықты backend логикасы, mobile exploration және тәртіпті toolchain.",
+    "labLabel": "Жұмыс Стилі",
+    "labTitle": "Стек қалай күшейіп жатыр",
+    "labBody": "Мұндағы әр құрал жай тізім ұлғайту үшін емес, жақсырақ өнім шығару үшін қолданылады.",
+    "groups": [
+      {
+        "label": "01 / Frontend",
+        "title": "Құрылымы бар таза интерфейстер",
+        "description": "Заманауи layout, responsive орындау және саналы интерфейс айқындығы.",
+        "items": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "label": "02 / Backend",
+        "title": "Масштабталатын логика",
+        "description": "Python, Django және анағұрлым таза product architecture негізіндегі backend ойлау.",
+        "items": ["Python", "Django", "System Logic"]
+      },
+      {
+        "label": "03 / Mobile",
+        "title": "Браузерден тыс өнімдік бағыт",
+        "description": "Flutter мен Firebase real-time flow, mobile UX және role-based system-дерді зерттеу үшін.",
+        "items": ["Flutter", "Firebase", "Mobile Flow"]
+      },
+      {
+        "label": "04 / Tools",
+        "title": "Сенімді build routine",
+        "description": "Consistency, version control және focused development cycle-ді ұстайтын құралдар.",
+        "items": ["Git", "Linux", "VS Code"]
+      }
+    ],
+    "labPills": [
+      "Version control discipline",
+      "Linux comfort",
+      "Readable code habits",
+      "Iterative product thinking"
+    ]
+  },
+  "projectsSection": {
+    "eyebrow": "Негізгі Жобалар",
+    "title": "Өнімдік амбициясы қазірдің өзінде көрінетін үш жоба.",
+    "lead": "Әр жоба mini case study сияқты берілген: мақсаты анық, құрылымы таза, бағыты нақты."
+  },
+  "journey": {
+    "eyebrow": "Жол / Roadmap",
+    "title": "Elite full-stack деңгейіне бағытталған roadmap.",
+    "lead": "Жол саналы құрылған: іргетасты күшейту, нақты жобалар шығару, interface quality-ді system logic-пен қосу және стандартты үнемі көтеру.",
+    "closingLabel": "Trajectory",
+    "closingTitle": "Ұзақ мерзімді бағыт",
+    "closingBody": "Финал мақсат айқын: engineering depth, design taste және founder-level ownership бар polished digital product-тер құру.",
+    "phases": [
+      {
+        "phase": "Phase 01",
+        "status": "Қазір",
+        "title": "Негізді күшейту",
+        "body": "Тұрақты практика арқылы программалау негіздерін, frontend орындауды және backend reasoning-ті нығайту.",
+        "meta": "Қазіргі фокус"
+      },
+      {
+        "phase": "Phase 02",
+        "status": "Құрылуда",
+        "title": "Нақты жобаларды шығару",
+        "body": "Үйренуді case study-ге, интерфейске, product logic-ке және мықты engineering habit-ке айналдыру.",
+        "meta": "Белсенді build"
+      },
+      {
+        "phase": "Phase 03",
+        "status": "Келесі",
+        "title": "Full-stack сенімділігін кеңейту",
+        "body": "Backend system, API және frontend-ті mature әрі cohesive өнімдерге біріктіру.",
+        "meta": "System depth"
+      },
+      {
+        "phase": "Phase 04",
+        "status": "North star",
+        "title": "Elite деңгейде жұмыс істеу",
+        "body": "Өнім сапасы, техникалық тереңдік және орындау тәртібі бірдей сезілетін деңгейге жету.",
+        "meta": "Ұзақ амбиция"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Байланыс",
+    "title": "Байсалды builder-лерге, болашақ серіктестерге және нақты әңгімелерге ашық.",
+    "lead": "Public identity әлі өсіп жатыр, бірақ contact layer жұмыстың өзі сияқты: таза, саналы және өсуге дайын.",
+    "primaryCta": "GitHub Ашу",
+    "secondaryCta": "Жобаларға Қайту",
+    "footnote": "Public profile stack өскен сайын қосымша сілтемелер жалғанады.",
+    "cards": [
+      {
+        "key": "github",
+        "label": "GitHub",
+        "title": "Repository signal",
+        "body": "Код, project structure және салынып жатқан жұмыстың public ізі.",
+        "href": "https://github.com/turginbay-dev",
+        "action": "Профильді ашу",
+        "available": true
+      },
+      {
+        "key": "linkedin",
+        "label": "LinkedIn",
+        "title": "Кәсіби профиль",
+        "body": "Networking пен болашақ collaboration үшін сақталған жинақы кәсіби identity.",
+        "href": "#",
+        "action": "Private / pending",
+        "available": false
+      },
+      {
+        "key": "instagram",
+        "label": "Instagram",
+        "title": "Жеке қабат",
+        "body": "Premium техникалық tone-ды бұзбайтын жұмсақ brand channel ретінде дайындалған.",
+        "href": "#",
+        "action": "Private / pending",
+        "available": false
+      },
+      {
+        "key": "email",
+        "label": "Email",
+        "title": "Тікелей арна",
+        "body": "Шынайы мүмкіндік пен байсалды outreach үшін ең тура жол ретінде дайындалған.",
+        "href": "#",
+        "action": "Сұраныс бойынша",
+        "available": false
+      }
+    ]
+  },
+  "projectPage": {
+    "backHome": "Портфолиоға Қайту",
+    "overviewEyebrow": "Case Study",
+    "stackLabel": "Tech Stack",
+    "roleLabel": "Рөл",
+    "statusLabel": "Статус",
+    "timelineLabel": "Уақыт",
+    "categoryLabel": "Категория",
+    "summaryLabel": "Шолу",
+    "goalsLabel": "Мақсаттар",
+    "featuresLabel": "Негізгі Функциялар",
+    "challengeLabel": "Қиындық",
+    "solutionLabel": "Шешім",
+    "impactLabel": "Маңыздылығы",
+    "futureLabel": "Келесі Жақсартулар",
+    "galleryLabel": "Таңдалған Кадрлар",
+    "linksLabel": "Жоба Сілтемелері",
+    "demoCta": "Live Demo",
+    "githubCta": "GitHub Repo",
+    "navigationEyebrow": "Келесі Навигация",
+    "previousLabel": "Алдыңғы Жоба",
+    "nextLabel": "Келесі Жоба"
+  },
+  "footer": {
+    "closing": "Қазақстанда жасалған. Жаһандық деңгейдегі product quality-ге бағытталған.",
+    "rights": "Барлық құқық қорғалған."
+  }
+}

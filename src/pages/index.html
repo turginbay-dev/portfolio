@@ -1,1 +1,431 @@
-<!-- Main portfolio page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Turginbay Bekzat | Cinematic Full-Stack Portfolio</title>
+    <meta
+      name="description"
+      content="A premium dark portfolio for Turginbay Bekzat."
+      data-i18n-content="meta.description"
+    />
+    <meta property="og:title" content="Turginbay Bekzat | Cinematic Full-Stack Portfolio" data-i18n-content="meta.ogTitle" />
+    <meta property="og:description" content="Premium developer portfolio." data-i18n-content="meta.ogDescription" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#050505" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              obsidian: "#050505",
+              charcoal: "#0B0B0F",
+              graphite: "#111218",
+              surface: "#151821",
+              line: "rgba(255,255,255,0.08)",
+              aqua: "#4FD1FF",
+              cyan: "#7EE7FF",
+              violet: "#8B7CFF",
+              silver: "#C8D1DC",
+              snow: "#F5F7FA",
+              muted: "#9FA8B7",
+              dim: "#697282"
+            },
+            fontFamily: {
+              display: ["Space Grotesk", "sans-serif"],
+              sans: ["Inter", "sans-serif"],
+              mono: ["IBM Plex Mono", "monospace"]
+            },
+            maxWidth: {
+              shell: "1440px"
+            }
+          }
+        }
+      };
+    </script>
+    <link rel="icon" href="../assets/images/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/utilities.css" />
+  </head>
+  <body data-page-type="home" data-base-path="../" data-project-base="./projects/" class="bg-obsidian text-snow antialiased">
+    <div class="site-shell">
+      <div class="ambient-field" aria-hidden="true">
+        <div class="ambient-field__bloom ambient-field__bloom--one"></div>
+        <div class="ambient-field__bloom ambient-field__bloom--two"></div>
+        <div class="ambient-field__bloom ambient-field__bloom--three"></div>
+        <div class="ambient-field__grid"></div>
+        <div class="ambient-field__noise"></div>
+      </div>
+
+      <header class="site-header">
+        <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+          <div class="header-shell">
+            <a href="#home" class="brand-mark">
+              <span class="brand-mark__seal">TB</span>
+              <span class="brand-mark__content">
+                <strong>Turginbay Bekzat</strong>
+                <span data-i18n="brand.tagline">Kazakhstan / Web + Mobile / Founder Energy</span>
+              </span>
+            </a>
+
+            <nav class="hidden xl:flex items-center gap-8" aria-label="Primary">
+              <a href="#home" class="nav-link" data-nav-link data-i18n="nav.home">Home</a>
+              <a href="#about" class="nav-link" data-nav-link data-i18n="nav.about">About</a>
+              <a href="#skills" class="nav-link" data-nav-link data-i18n="nav.skills">Skills</a>
+              <a href="#projects" class="nav-link" data-nav-link data-i18n="nav.projects">Projects</a>
+              <a href="#journey" class="nav-link" data-nav-link data-i18n="nav.journey">Journey</a>
+              <a href="#contact" class="nav-link" data-nav-link data-i18n="nav.contact">Contact</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-3">
+              <div class="lang-switch" aria-label="Language switcher">
+                <button type="button" class="lang-switch__button" data-locale="kz" aria-pressed="false">KZ</button>
+                <button type="button" class="lang-switch__button" data-locale="ru" aria-pressed="false">RU</button>
+                <button type="button" class="lang-switch__button is-active" data-locale="en" aria-pressed="true">EN</button>
+              </div>
+
+              <a href="https://github.com/turginbay-dev" class="icon-link" data-github-link aria-label="GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2a10 10 0 0 0-3.17 19.48c.5.09.68-.21.68-.48v-1.86c-2.79.61-3.38-1.18-3.38-1.18a2.67 2.67 0 0 0-1.12-1.47c-.92-.62.07-.61.07-.61a2.11 2.11 0 0 1 1.54 1.03 2.15 2.15 0 0 0 2.94.84 2.15 2.15 0 0 1 .64-1.34c-2.23-.25-4.57-1.11-4.57-4.94A3.86 3.86 0 0 1 7.34 8.8a3.58 3.58 0 0 1 .1-2.55s.84-.27 2.75 1.03a9.47 9.47 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03a3.58 3.58 0 0 1 .1 2.55 3.86 3.86 0 0 1 1.02 2.67c0 3.84-2.34 4.69-4.58 4.94a2.41 2.41 0 0 1 .69 1.87v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="icon-link is-disabled" data-linkedin-link aria-label="LinkedIn profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.4a1.56 1.56 0 0 1 .04 3.1ZM5.5 9.75h2.86V18H5.5Zm4.64 0h2.74v1.13h.04a3 3 0 0 1 2.74-1.5c2.94 0 3.48 1.94 3.48 4.46V18h-2.86v-3.7c0-.88-.02-2.01-1.22-2.01s-1.41.96-1.41 1.94V18h-2.86Z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#projects" class="button-primary" data-i18n="nav.cta">View Work</a>
+            </div>
+
+            <button
+              type="button"
+              class="menu-toggle md:hidden"
+              data-menu-toggle
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+              aria-label="Open navigation"
+            >
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+
+          <div class="mobile-nav" id="mobile-nav" data-mobile-nav>
+            <nav class="mobile-nav__panel" aria-label="Mobile navigation">
+              <a href="#home" data-nav-link data-i18n="nav.home">Home</a>
+              <a href="#about" data-nav-link data-i18n="nav.about">About</a>
+              <a href="#skills" data-nav-link data-i18n="nav.skills">Skills</a>
+              <a href="#projects" data-nav-link data-i18n="nav.projects">Projects</a>
+              <a href="#journey" data-nav-link data-i18n="nav.journey">Journey</a>
+              <a href="#contact" data-nav-link data-i18n="nav.contact">Contact</a>
+
+              <div class="lang-switch w-max" aria-label="Language switcher">
+                <button type="button" class="lang-switch__button" data-locale="kz" aria-pressed="false">KZ</button>
+                <button type="button" class="lang-switch__button" data-locale="ru" aria-pressed="false">RU</button>
+                <button type="button" class="lang-switch__button is-active" data-locale="en" aria-pressed="true">EN</button>
+              </div>
+
+              <div class="flex items-center gap-3 pt-2">
+                <a href="https://github.com/turginbay-dev" class="icon-link" data-github-link aria-label="GitHub profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 2a10 10 0 0 0-3.17 19.48c.5.09.68-.21.68-.48v-1.86c-2.79.61-3.38-1.18-3.38-1.18a2.67 2.67 0 0 0-1.12-1.47c-.92-.62.07-.61.07-.61a2.11 2.11 0 0 1 1.54 1.03 2.15 2.15 0 0 0 2.94.84 2.15 2.15 0 0 1 .64-1.34c-2.23-.25-4.57-1.11-4.57-4.94A3.86 3.86 0 0 1 7.34 8.8a3.58 3.58 0 0 1 .1-2.55s.84-.27 2.75 1.03a9.47 9.47 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03a3.58 3.58 0 0 1 .1 2.55 3.86 3.86 0 0 1 1.02 2.67c0 3.84-2.34 4.69-4.58 4.94a2.41 2.41 0 0 1 .69 1.87v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="icon-link is-disabled" data-linkedin-link aria-label="LinkedIn profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.4a1.56 1.56 0 0 1 .04 3.1ZM5.5 9.75h2.86V18H5.5Zm4.64 0h2.74v1.13h.04a3 3 0 0 1 2.74-1.5c2.94 0 3.48 1.94 3.48 4.46V18h-2.86v-3.7c0-.88-.02-2.01-1.22-2.01s-1.41.96-1.41 1.94V18h-2.86Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="section-shell hero-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="hero-layout">
+              <div class="reveal" data-reveal>
+                <div class="eyebrow">
+                  <span data-i18n="hero.eyebrow">Kazakhstan / Satbayev University / 2nd Year</span>
+                </div>
+                <p class="hero-kicker" data-i18n="brand.role">Future Full-Stack Developer</p>
+                <h1 class="hero-title text-balance" data-i18n-html="hero.title">
+                  Designing <span class="accent">sharp interfaces</span>. Building serious systems.
+                </h1>
+                <p class="hero-body text-balance" data-i18n="hero.body">
+                  I build modern digital experiences with precision, ambition, and long-range intent.
+                </p>
+
+                <div class="cta-row">
+                  <a href="#projects" class="button-primary" data-i18n="hero.primaryCta">View Projects</a>
+                  <a href="#contact" class="button-secondary" data-i18n="hero.secondaryCta">Contact Me</a>
+                </div>
+
+                <article class="hero-status panel" data-spotlight>
+                  <span class="mono-label" data-i18n="hero.statusLabel">Current signal</span>
+                  <p class="hero-status__value" data-i18n="hero.statusValue">
+                    Studying at Satbayev University while building real products with web and mobile direction.
+                  </p>
+                  <p class="hero-status__note" data-i18n="hero.statusNote">
+                    The target is clear: elite full-stack capability, clean product taste, and disciplined execution.
+                  </p>
+                </article>
+
+                <div class="hero-stat-grid" data-hero-stats></div>
+              </div>
+
+              <div class="reveal" data-reveal>
+                <div class="hero-stage panel" data-spotlight>
+                  <canvas class="signal-canvas" data-signal-canvas aria-hidden="true"></canvas>
+                  <div class="signal-metrics" data-hero-metrics></div>
+                  <div class="signal-orb" aria-hidden="true">
+                    <span class="signal-orb__mark">TB</span>
+                  </div>
+
+                  <div class="floating-panel floating-panel--top">
+                    <span class="mono-label" data-i18n="hero.signatureLabel">Signature Visual</span>
+                    <strong data-i18n="hero.signatureTitle">Signal chamber</strong>
+                    <p data-i18n="hero.signatureBody">
+                      A restrained motion field that makes the hero feel alive, technical, and intentional.
+                    </p>
+                  </div>
+
+                  <div class="floating-panel floating-panel--bottom">
+                    <span class="mono-label">/ build log</span>
+                    <div class="signal-log" data-hero-log></div>
+                  </div>
+
+                  <div class="signal-pills" data-hero-pills></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="section-head reveal" data-reveal>
+              <div class="eyebrow">
+                <span data-i18n="about.eyebrow">About</span>
+              </div>
+              <h2 class="section-title text-balance" data-i18n="about.title">
+                Early in the journey. Already operating with higher standards.
+              </h2>
+              <p class="section-lead text-balance" data-i18n="about.lead">
+                A young IT student from Kazakhstan building toward full-stack depth with seriousness and discipline.
+              </p>
+            </div>
+
+            <div class="about-layout">
+              <article class="about-copy-panel panel reveal" data-reveal data-spotlight>
+                <div class="grid md:grid-cols-2">
+                  <div>
+                    <span class="mono-label" data-i18n="about.introLabel">Profile</span>
+                    <p data-i18n="about.introBody">
+                      He is not trying to look experienced before the work exists.
+                    </p>
+                  </div>
+                  <div>
+                    <span class="mono-label" data-i18n="about.philosophyLabel">Mindset</span>
+                    <p data-i18n="about.philosophyBody">
+                      The mission is not to collect random tools.
+                    </p>
+                  </div>
+                </div>
+                <blockquote class="quote-block text-balance" data-i18n="about.quote">
+                  I’m building the skillset of a developer who can create products people trust, enjoy, and remember.
+                </blockquote>
+              </article>
+
+              <div class="about-side-stack reveal" data-reveal>
+                <div class="about-stat-grid" data-about-stats></div>
+                <div class="grid gap-4" data-about-identity></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="section-head reveal" data-reveal>
+              <div class="eyebrow">
+                <span data-i18n="skills.eyebrow">Skills / Stack</span>
+              </div>
+              <h2 class="section-title text-balance" data-i18n="skills.title">
+                A stack shaped around real product building.
+              </h2>
+              <p class="section-lead text-balance" data-i18n="skills.lead">
+                The technologies are practical, but the standard is premium.
+              </p>
+            </div>
+
+            <div class="stack-grid" data-skills-grid></div>
+
+            <article class="skills-lab panel reveal" data-reveal data-spotlight>
+              <span class="mono-label" data-i18n="skills.labLabel">Operating Style</span>
+              <h3 data-i18n="skills.labTitle">How the stack is being sharpened</h3>
+              <p data-i18n="skills.labBody">
+                Every tool here is tied to shipping better products, not simply expanding a checklist.
+              </p>
+              <div class="skills-lab__pills" data-skills-pills></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="section-head reveal" data-reveal>
+              <div class="eyebrow">
+                <span data-i18n="projectsSection.eyebrow">Featured Projects</span>
+              </div>
+              <h2 class="section-title text-balance" data-i18n="projectsSection.title">
+                Three builds that already show product ambition.
+              </h2>
+              <p class="section-lead text-balance" data-i18n="projectsSection.lead">
+                Each project is presented like a mini case study with clear direction and real structure.
+              </p>
+            </div>
+
+            <div class="project-grid" data-project-grid></div>
+          </div>
+        </section>
+
+        <section id="journey" class="section-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="section-head reveal" data-reveal>
+              <div class="eyebrow">
+                <span data-i18n="journey.eyebrow">Journey / Roadmap</span>
+              </div>
+              <h2 class="section-title text-balance" data-i18n="journey.title">
+                A roadmap aimed at elite full-stack capability.
+              </h2>
+              <p class="section-lead text-balance" data-i18n="journey.lead">
+                The path is deliberate: strengthen the fundamentals, build real products, and keep raising the standard.
+              </p>
+            </div>
+
+            <div class="journey-grid" data-journey-grid></div>
+
+            <article class="journey-closing panel reveal" data-reveal data-spotlight>
+              <span class="mono-label" data-i18n="journey.closingLabel">Trajectory</span>
+              <h3 data-i18n="journey.closingTitle">Long-range direction</h3>
+              <p data-i18n="journey.closingBody">
+                The end goal is clear: build polished digital products with engineering depth and founder-level ownership.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section-shell section-anchor-offset">
+          <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+            <div class="section-head reveal" data-reveal>
+              <div class="eyebrow">
+                <span data-i18n="contact.eyebrow">Contact</span>
+              </div>
+              <h2 class="section-title text-balance" data-i18n="contact.title">
+                Open to serious builders, future collaborators, and sharp conversations.
+              </h2>
+              <p class="section-lead text-balance" data-i18n="contact.lead">
+                The public identity is still growing, but the contact layer is already structured like the work.
+              </p>
+            </div>
+
+            <div class="contact-layout">
+              <article class="contact-panel panel reveal" data-reveal data-spotlight>
+                <span class="mono-label" data-i18n="brand.role">Future Full-Stack Developer</span>
+                <h3 class="mt-4 font-display text-4xl tracking-tight text-snow sm:text-5xl">
+                  Turginbay Bekzat
+                </h3>
+                <p class="mt-4 text-balance" data-i18n="contact.lead">
+                  The public identity is still growing, but the contact layer is already structured like the work.
+                </p>
+                <div class="cta-row">
+                  <a href="https://github.com/turginbay-dev" class="button-primary" data-contact-primary data-i18n="contact.primaryCta">
+                    Open GitHub
+                  </a>
+                  <a href="#projects" class="button-secondary" data-i18n="contact.secondaryCta">Return to Projects</a>
+                </div>
+                <p class="mt-6 text-sm text-dim" data-i18n="contact.footnote">
+                  More public links can be connected as the profile stack expands.
+                </p>
+              </article>
+
+              <div class="contact-card-grid md:grid-cols-2" data-contact-grid></div>
+            </div>
+          </div>
+        </section>
+
+        <div data-page-error class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8"></div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="mx-auto max-w-shell px-4 sm:px-6 lg:px-8">
+          <div class="footer-shell">
+            <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p class="font-display text-2xl tracking-tight text-snow">Turginbay Bekzat</p>
+                <p class="mt-2 max-w-2xl text-balance" data-i18n="footer.closing">
+                  Built in Kazakhstan. Aiming at global-level product quality.
+                </p>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <a href="https://github.com/turginbay-dev" class="icon-link" data-github-link aria-label="GitHub profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 2a10 10 0 0 0-3.17 19.48c.5.09.68-.21.68-.48v-1.86c-2.79.61-3.38-1.18-3.38-1.18a2.67 2.67 0 0 0-1.12-1.47c-.92-.62.07-.61.07-.61a2.11 2.11 0 0 1 1.54 1.03 2.15 2.15 0 0 0 2.94.84 2.15 2.15 0 0 1 .64-1.34c-2.23-.25-4.57-1.11-4.57-4.94A3.86 3.86 0 0 1 7.34 8.8a3.58 3.58 0 0 1 .1-2.55s.84-.27 2.75 1.03a9.47 9.47 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03a3.58 3.58 0 0 1 .1 2.55 3.86 3.86 0 0 1 1.02 2.67c0 3.84-2.34 4.69-4.58 4.94a2.41 2.41 0 0 1 .69 1.87v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="icon-link is-disabled" data-linkedin-link aria-label="LinkedIn profile">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.4a1.56 1.56 0 0 1 .04 3.1ZM5.5 9.75h2.86V18H5.5Zm4.64 0h2.74v1.13h.04a3 3 0 0 1 2.74-1.5c2.94 0 3.48 1.94 3.48 4.46V18h-2.86v-3.7c0-.88-.02-2.01-1.22-2.01s-1.41.96-1.41 1.94V18h-2.86Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#journey" data-i18n="nav.journey">Journey</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+              </nav>
+
+              <p class="text-sm text-dim">
+                <span data-current-year></span>
+                <span data-i18n="footer.rights">All rights reserved.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="../scripts/app.js"></script>
+  </body>
+</html>

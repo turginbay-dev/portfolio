@@ -1,0 +1,201 @@
+{
+  "year": "2025 / Ongoing",
+  "previewCode": "QZS-01",
+  "accent": "cyan",
+  "stack": ["Python", "Django", "JavaScript", "HTML", "CSS", "Git"],
+  "links": {
+    "demo": "#",
+    "github": "#"
+  },
+  "locales": {
+    "en": {
+      "name": "QazSound",
+      "category": "Music Platform",
+      "status": "In development",
+      "cardTagline": "Streaming concept shaped like a real product.",
+      "cardDescription": "A Django-based music platform exploring discovery, playback flow, and content architecture with more product intent than a simple student app.",
+      "cardCta": "Open case study",
+      "headline": "A modern music platform concept designed around discovery, playback, and scalable content structure.",
+      "summary": "QazSound treats interface, content organization, and backend logic as one product system. The goal is to make a student-built platform feel closer to a real media product.",
+      "role": "Full-stack developer",
+      "challenge": "How do you make a student-built music product feel like a platform instead of a page with tracks?",
+      "solution": "By treating discovery, playback, and content structure as a cohesive experience built on Django, not as disconnected screens.",
+      "impact": "The project sharpens backend reasoning, UI hierarchy, and the ability to think about media-heavy products as scalable systems.",
+      "metrics": [
+        {
+          "label": "Product Lens",
+          "value": "Discovery + Playback"
+        },
+        {
+          "label": "Architecture",
+          "value": "Django Content System"
+        },
+        {
+          "label": "Direction",
+          "value": "Platform Mindset"
+        }
+      ],
+      "goals": [
+        "Build a cleaner listening experience than a typical coursework player.",
+        "Strengthen Django backend thinking through content-heavy product logic.",
+        "Design a system that can later support playlists, search, and richer data states."
+      ],
+      "features": [
+        "Structured discovery surface for tracks and collections.",
+        "Playback and downloadable flow prepared for scale.",
+        "Cleaner content hierarchy with product-led navigation.",
+        "UI direction ready for artwork, motion, and richer media states."
+      ],
+      "future": [
+        "Add playlists and deeper search.",
+        "Improve artwork treatment and player states.",
+        "Extend content management and recommendation logic."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Discovery surface",
+          "description": "A premium first screen for browsing tracks, collections, and new releases."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Playback flow",
+          "description": "A focused listening state that connects interface clarity with stronger player behavior."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Content structure",
+          "description": "A supporting system view showing how media organization can scale behind the UI."
+        }
+      ],
+      "privateNote": "Public demo and repository will connect after the next packaging pass.",
+      "privateLinkLabel": "Private for now"
+    },
+    "kz": {
+      "name": "QazSound",
+      "category": "Музыка Платформасы",
+      "status": "Әзірленуде",
+      "cardTagline": "Нақты өнім секілді ойластырылған streaming концепті.",
+      "cardDescription": "Discovery, playback flow және content architecture-ды қарапайым студенттік app-тен жоғары product intent-пен зерттейтін Django-негізді музыка платформасы.",
+      "cardCta": "Case study Ашу",
+      "headline": "Discovery, playback және scalable content structure айналасында құрылған заманауи music platform концепті.",
+      "summary": "QazSound interface, content organization және backend logic-ті бір өнім жүйесі ретінде қарайды. Мақсат — студенттік build-ті нақты media product-ке жақын сезіндіру.",
+      "role": "Full-stack developer",
+      "challenge": "Студенттік музыка жобасын жай track тізімі емес, шынайы платформа секілді қалай сезіндіруге болады?",
+      "solution": "Discovery, playback және content structure-ды бөлек экрандар емес, Django үстіндегі бір cohesive experience ретінде қарастыру арқылы.",
+      "impact": "Бұл жоба backend reasoning-ті, UI hierarchy-ді және media-heavy product-терді scalable system ретінде ойлауды күшейтеді.",
+      "metrics": [
+        {
+          "label": "Product Lens",
+          "value": "Discovery + Playback"
+        },
+        {
+          "label": "Architecture",
+          "value": "Django Content System"
+        },
+        {
+          "label": "Direction",
+          "value": "Platform Mindset"
+        }
+      ],
+      "goals": [
+        "Кәдімгі coursework player-ден таза listening experience құру.",
+        "Content-heavy product logic арқылы Django backend ойлауын күшейту.",
+        "Кейін playlist, search және richer data state-терді көтере алатын жүйе жобалау."
+      ],
+      "features": [
+        "Track пен collection үшін structured discovery surface.",
+        "Масштабқа дайын playback және downloadable flow.",
+        "Product-led navigation арқылы cleaner content hierarchy.",
+        "Artwork, motion және richer media state-терге дайын UI бағыты."
+      ],
+      "future": [
+        "Playlist және тереңірек search қосу.",
+        "Artwork treatment пен player state-терін жақсарту.",
+        "Content management пен recommendation logic-ті кеңейту."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Discovery surface",
+          "description": "Track, collection және new release-терді көрсететін premium алғашқы экран."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Playback flow",
+          "description": "Interface clarity мен мықты player behavior-ді біріктіретін focused listening state."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Content structure",
+          "description": "UI артындағы media organization қалай масштабталатынын көрсететін supporting system view."
+        }
+      ],
+      "privateNote": "Public demo мен repository келесі packaging pass-тен кейін қосылады.",
+      "privateLinkLabel": "Әзірге private"
+    },
+    "ru": {
+      "name": "QazSound",
+      "category": "Музыкальная Платформа",
+      "status": "В разработке",
+      "cardTagline": "Streaming-концепт, собранный как реальный продукт.",
+      "cardDescription": "Django-база для музыкальной платформы, которая исследует discovery, playback flow и content architecture с более сильным product intent, чем у обычного студенческого app.",
+      "cardCta": "Открыть case study",
+      "headline": "Современный music platform concept, построенный вокруг discovery, playback и scalable content structure.",
+      "summary": "QazSound рассматривает interface, content organization и backend logic как единую продуктовую систему. Задача — приблизить студенческий build к ощущению настоящего media product.",
+      "role": "Full-stack developer",
+      "challenge": "Как сделать так, чтобы студенческий музыкальный проект ощущался платформой, а не страницей с треками?",
+      "solution": "Через подход, где discovery, playback и content structure работают как единый experience на Django, а не как набор разрозненных экранов.",
+      "impact": "Проект усиливает backend reasoning, UI hierarchy и умение мыслить media-heavy продуктами как масштабируемыми системами.",
+      "metrics": [
+        {
+          "label": "Product Lens",
+          "value": "Discovery + Playback"
+        },
+        {
+          "label": "Architecture",
+          "value": "Django Content System"
+        },
+        {
+          "label": "Direction",
+          "value": "Platform Mindset"
+        }
+      ],
+      "goals": [
+        "Собрать более чистый listening experience, чем у типичного coursework player.",
+        "Усилить Django backend-мышление через content-heavy product logic.",
+        "Спроектировать систему, которая позже выдержит playlists, search и richer data states."
+      ],
+      "features": [
+        "Структурированная discovery-поверхность для треков и коллекций.",
+        "Playback и downloadable flow с запасом на масштаб.",
+        "Более чистая content hierarchy с product-led navigation.",
+        "UI-направление, готовое к artwork, motion и richer media states."
+      ],
+      "future": [
+        "Добавить playlists и более глубокий search.",
+        "Улучшить artwork treatment и player states.",
+        "Расширить content management и recommendation logic."
+      ],
+      "gallery": [
+        {
+          "label": "Frame 01",
+          "title": "Discovery surface",
+          "description": "Премиальный первый экран для browsing треков, коллекций и новых релизов."
+        },
+        {
+          "label": "Frame 02",
+          "title": "Playback flow",
+          "description": "Сфокусированное listening state, которое соединяет ясность интерфейса и более сильное поведение плеера."
+        },
+        {
+          "label": "Frame 03",
+          "title": "Content structure",
+          "description": "Supporting system view, показывающий, как media organization может масштабироваться за пределами UI."
+        }
+      ],
+      "privateNote": "Публичные demo и repository будут подключены после следующего packaging pass.",
+      "privateLinkLabel": "Пока private"
+    }
+  }
+}
