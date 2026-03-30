@@ -10,7 +10,7 @@ export const projects = [
     stack: ['Flutter', 'Dart', 'Firebase Auth', 'Cloud Firestore', 'Firebase Storage'],
     links: {
       demo: '',
-      github: 'https://github.com/TurginbayBekzat/NaqUsta',
+      github: 'https://github.com/turginbay-dev/NaqUsta',
       caseStudy: '/files/NaqUsta_README.pdf',
     },
     description: {
@@ -213,41 +213,370 @@ export const projects = [
     id: 'qazsound',
     title: 'QazSound',
     type: {
-      kk: 'Music platform and content experience',
-      ru: 'Музыкальная платформа и контент-опыт',
-      en: 'Music platform and content experience',
+      kk: 'Django-based music platform',
+      ru: 'Django-платформа для музыки',
+      en: 'Django-based music platform',
     },
-    stack: ['Django', 'PostgreSQL', 'JavaScript', 'Tailwind CSS'],
+    stack: ['Django', 'Python', 'JavaScript', 'PostgreSQL'],
     links: {
-      demo: '',
-      github: '',
-      caseStudy: '/files/qazsound-case-study.pdf',
+      demo: 'https://qazsound.onrender.com',
+      github: 'https://github.com/turginbay-dev/QazSound',
+      caseStudy: '/files/QazSound_README.pdf',
     },
     description: {
-      kk: 'QazSound музыка контентін, player interface-ті және админ басқаруды бір визуалды жүйеге жинайтын web жоба.',
-      ru: 'QazSound собирает музыкальный контент, player interface и admin-часть в одну цельную web-систему.',
-      en: 'QazSound brings together music content, player interface, and admin management into one cohesive web platform.',
+      kk: 'QazSound - трек жариялау, YouTube негізіндегі аудио ағынды қауіпсіз пайдалану, favorites жүйесі және global player тәжірибесін бір өнімге жинайтын modern Django music platform. Жоба таза CRUD емес, контент жариялау, тыңдау, интеракция, әкімшілік аналитика және deploy-ready инфрақұрылымды бірге көрсететін толық web жүйе.',
+      ru: 'QazSound это modern Django music platform, которая объединяет публикацию треков, безопасный YouTube-based streaming, favorites-систему и единый global player experience. Это не просто CRUD-проект, а цельная web-система с контент-паблишингом, прослушиванием, интеракциями, admin-аналитикой и deploy-ready инфраструктурой.',
+      en: 'QazSound is a modern Django music platform that combines track publishing, safe YouTube-based audio streaming, favorites, and a persistent global player into one product. It goes beyond CRUD pages and demonstrates a cohesive web system with content publishing, listening flow, interaction logic, admin analytics, and deploy-ready infrastructure.',
     },
     highlights: {
-      kk: ['Player flow', 'Track pages and content UI', 'Admin-side management'],
-      ru: ['Player flow', 'Track pages и content UI', 'Admin-side management'],
-      en: ['Player flow', 'Track pages and content UI', 'Admin-side management'],
+      kk: [
+        'Hybrid content model: local upload + YouTube streaming',
+        'Global player with history және localStorage persistence',
+        'AJAX likes/favorites synced across cards, detail, and player',
+        'Jazzmin-based admin dashboard with analytics cards and charts',
+        'Service / selector Django architecture with deploy-ready setup',
+      ],
+      ru: [
+        'Hybrid content model: local upload + YouTube streaming',
+        'Global player с history и localStorage persistence',
+        'AJAX likes/favorites синхронизированы между cards, detail и player',
+        'Jazzmin-based admin dashboard с analytics cards и charts',
+        'Service / selector Django architecture и deploy-ready setup',
+      ],
+      en: [
+        'Hybrid content model: local upload + YouTube streaming',
+        'Global player with history and localStorage persistence',
+        'AJAX likes/favorites synced across cards, detail, and player',
+        'Jazzmin-based admin dashboard with analytics cards and charts',
+        'Service / selector Django architecture with deploy-ready setup',
+      ],
+    },
+    snapshot: [
+      {
+        label: {
+          kk: 'Жасалу уақыты',
+          ru: 'Срок разработки',
+          en: 'Build Duration',
+        },
+        value: '~1 month',
+      },
+      {
+        label: {
+          kk: 'Негізгі платформа',
+          ru: 'Основная платформа',
+          en: 'Primary Platform',
+        },
+        value: 'Django web',
+      },
+      {
+        label: {
+          kk: 'Контент моделі',
+          ru: 'Контент-модель',
+          en: 'Content Model',
+        },
+        value: 'UPLOAD + YOUTUBE',
+      },
+      {
+        label: {
+          kk: 'Ойнату тәжірибесі',
+          ru: 'Playback UX',
+          en: 'Playback UX',
+        },
+        value: 'Global player + history',
+      },
+      {
+        label: {
+          kk: 'ДҚ және сақтау',
+          ru: 'База и хранение',
+          en: 'Data Layer',
+        },
+        value: 'SQLite dev / PostgreSQL-ready',
+      },
+      {
+        label: {
+          kk: 'Deploy негізі',
+          ru: 'Deploy-основа',
+          en: 'Deployment',
+        },
+        value: 'WhiteNoise + Gunicorn',
+      },
+    ],
+    audience: {
+      kk: [
+        'Музыка авторлары: тректерді метадерекпен бірге жариялап, контентін ыңғайлы басқарғысы келетіндер.',
+        'Тыңдармандар: modern card-based интерфейсте іздеу, тыңдау және favorites жинағысы келетіндер.',
+        'Студенттер мен junior developer-лер: practical Django architecture, services/selectors және deploy-ready flow үйренгісі келетіндер.',
+      ],
+      ru: [
+        'Музыкальные авторы: те, кому нужен простой publishing flow для треков и метаданных.',
+        'Слушатели: пользователи, которым нужен modern card-based browsing, favorites и единый player experience.',
+        'Студенты и junior developers: те, кто хочет изучать practical Django architecture, services/selectors и deploy-ready flow.',
+      ],
+      en: [
+        'Music creators who want a simple publishing flow for tracks, metadata, and cover assets.',
+        'Listeners who want modern card-based discovery, favorites, and a consistent player experience.',
+        'Students and junior developers who want to study practical Django architecture, services/selectors, and deploy-ready workflows.',
+      ],
+    },
+    problem: {
+      kk: 'QazSound тек трек тізімін көрсету емес, толық music platform мәселесін шешеді: контент жариялау, тыңдарман discovery flow, favorites/likes интеракциясы, әкімшілік бақылау және production-ға жақын deployment configuration бір жүйеде болуы керек. Сонымен бірге upload арқылы жүктелген контент пен YouTube-тен алынатын аудио ағын бір listening workflow-да жұмыс істеуі тиіс.',
+      ru: 'QazSound решает не задачу простого списка треков, а проблему полноценной music platform: публикация контента, discovery flow для слушателей, favorites/likes, admin oversight и production-like deployment configuration должны работать как единая система. При этом загруженные треки и YouTube-based аудио должны жить в одном listening workflow.',
+      en: 'QazSound addresses the challenge of a complete music platform, not just a track list: content publishing, listener discovery, favorites/likes, admin oversight, and production-like deployment setup need to work as one coherent system. It also unifies uploaded tracks and YouTube-based audio in a single listening workflow.',
+    },
+    solution: {
+      kk: 'QazSound бұл міндетті hybrid content model арқылы шешеді: автор local audio upload жасай алады немесе YouTube сілтемесінен metadata preview алып, stream URL-ді тек сұраныс кезінде resolve етеді. Жоба global player, AJAX likes, профиль/тіл баптауы, admin analytics, JSON API және modular Django architecture арқылы контент тұтыну мен басқаруды бір тұтас flow-ға біріктіреді.',
+      ru: 'QazSound решает задачу через hybrid content model: автор может загрузить local audio или использовать YouTube link с metadata preview, а stream URL резолвится on demand. Проект объединяет global player, AJAX likes, profile/language settings, admin analytics, JSON API и modular Django architecture в один цельный flow потребления и управления контентом.',
+      en: 'QazSound solves this with a hybrid content model: creators can upload local audio or use a YouTube link with metadata preview, while the stream URL is resolved on demand. The product combines a global player, AJAX likes, profile/language settings, admin analytics, JSON APIs, and modular Django architecture into one consistent content flow.',
+    },
+    featureGroups: {
+      product: {
+        kk: [
+          'Track publishing workflow: UPLOAD немесе YOUTUBE source түрін таңдау.',
+          'YouTube metadata preview: title, author, duration, thumbnail-ды автоматты толтыру.',
+          'Favorites жүйесі және AJAX like/unlike behavior.',
+          'Global player: play/pause, previous/next history, persistent state.',
+          'Featured, Fresh uploads, Trending блоктары, search және genre filtering.',
+          'Пайдаланушы профилі, аватар, тіл таңдауы және “my tracks” бөлімі.',
+        ],
+        ru: [
+          'Track publishing workflow с выбором source type: UPLOAD или YOUTUBE.',
+          'YouTube metadata preview с автозаполнением title, author, duration и thumbnail.',
+          'Favorites-система и AJAX like/unlike behavior.',
+          'Global player: play/pause, previous/next history и persistent state.',
+          'Featured, Fresh uploads, Trending блоки, search и genre filtering.',
+          'Пользовательский профиль, avatar, language settings и раздел “my tracks”.',
+        ],
+        en: [
+          'Track publishing workflow with UPLOAD or YOUTUBE source selection.',
+          'YouTube metadata preview with automatic title, author, duration, and thumbnail fill.',
+          'Favorites system with AJAX like/unlike behavior.',
+          'Global player with play/pause, previous/next history, and persistent state.',
+          'Featured, Fresh uploads, Trending blocks, plus search and genre filtering.',
+          'User profile, avatar, language preference, and “my tracks” management.',
+        ],
+      },
+      engineering: {
+        kk: [
+          'Modular Django structure: config, tracks, users, interactions.',
+          'Selectors reads үшін, services write/business logic үшін, forms validation үшін бөлінген.',
+          'Domain-safe YouTube URL normalization, whitelist validation және yt-dlp on-demand stream resolve.',
+          'JSON API endpoints: track list, track detail, YouTube metadata, stream resolve.',
+          'WhiteNoise, Procfile, build.sh және DATABASE_URL арқылы deploy-ready foundation.',
+          'CSRF, @login_required, ownership checks, media constraints және DB integrity guards.',
+        ],
+        ru: [
+          'Modular Django structure: config, tracks, users, interactions.',
+          'Selectors отделены для reads, services для write/business logic, forms для validation.',
+          'Domain-safe YouTube URL normalization, whitelist validation и yt-dlp on-demand stream resolve.',
+          'JSON API endpoints: track list, track detail, YouTube metadata, stream resolve.',
+          'WhiteNoise, Procfile, build.sh и DATABASE_URL формируют deploy-ready foundation.',
+          'CSRF, @login_required, ownership checks, media constraints и DB integrity guards.',
+        ],
+        en: [
+          'Modular Django structure with config, tracks, users, and interactions apps.',
+          'Selectors for reads, services for write/business logic, and forms for validation.',
+          'Domain-safe YouTube URL normalization, whitelist validation, and yt-dlp on-demand stream resolution.',
+          'JSON API endpoints for track list, track detail, YouTube metadata preview, and stream resolution.',
+          'WhiteNoise, Procfile, build.sh, and DATABASE_URL support for a deploy-ready foundation.',
+          'CSRF, @login_required, ownership checks, media constraints, and database integrity guards.',
+        ],
+      },
+    },
+    architectureNote: {
+      kk: 'QazSound архитектурасы view-лерді жұқа ұстап, негізгі логиканы selectors, services және forms қабаттарына бөледі. Frontend жағында likes.js, player.js, forms.js, navigation.js және main.js арқылы page-shell, player state, metadata fetch және AJAX интеракциялар басқарылып, серверлік fallback-пен бірге жұмыс істейді.',
+      ru: 'Архитектура QazSound держит views тонкими и выносит основную логику в selectors, services и forms. На frontend стороне likes.js, player.js, forms.js, navigation.js и main.js управляют page-shell, player state, metadata fetch и AJAX interaction logic вместе с безопасными server-side fallbacks.',
+      en: 'QazSound keeps views lean by moving core logic into selectors, services, and forms. On the frontend, likes.js, player.js, forms.js, navigation.js, and main.js handle page-shell updates, player state, metadata fetch, and AJAX interactions while preserving safe server-side fallbacks.',
     },
     media: {
-      cover: '/media/projects/qazsound/cover.webp',
-      thumb: '/media/projects/qazsound/thumb.webp',
-      poster: '/media/projects/qazsound/poster.webp',
+      cover: '/media/projects/qazsound/browser/01-browser-home.png',
+      thumb: '/media/projects/qazsound/mobile/01-phone-home.png',
+      poster: '/media/projects/qazsound/browser/03-browser-library.png',
       screenshots: [
-        '/media/projects/qazsound/screenshots/01-home.webp',
-        '/media/projects/qazsound/screenshots/02-player.webp',
-        '/media/projects/qazsound/screenshots/03-track-page.webp',
-        '/media/projects/qazsound/screenshots/04-admin.webp',
-        '/media/projects/qazsound/screenshots/05-mobile-view.webp',
+        {
+          src: '/media/projects/qazsound/browser/01-browser-home.png',
+          title: {
+            kk: 'Browser Home',
+            ru: 'Browser Home',
+            en: 'Browser Home',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/02-browser-publish.png',
+          title: {
+            kk: 'Browser Publish',
+            ru: 'Browser Publish',
+            en: 'Browser Publish',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/03-browser-library.png',
+          title: {
+            kk: 'Browser Library',
+            ru: 'Browser Library',
+            en: 'Browser Library',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/04-browser-profile.png',
+          title: {
+            kk: 'Browser Profile',
+            ru: 'Browser Profile',
+            en: 'Browser Profile',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/05-browser-admin-artists.png',
+          title: {
+            kk: 'Admin Artists',
+            ru: 'Admin Artists',
+            en: 'Admin Artists',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/06-browser-admin-tracks.png',
+          title: {
+            kk: 'Admin Tracks',
+            ru: 'Admin Tracks',
+            en: 'Admin Tracks',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/browser/07-browser-admin-publish.png',
+          title: {
+            kk: 'Admin Publish',
+            ru: 'Admin Publish',
+            en: 'Admin Publish',
+          },
+          group: {
+            kk: 'MacBook / Browser',
+            ru: 'MacBook / Browser',
+            en: 'MacBook / Browser',
+          },
+          layout: 'desktop',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/mobile/01-phone-home.png',
+          title: {
+            kk: 'Phone Home',
+            ru: 'Phone Home',
+            en: 'Phone Home',
+          },
+          group: {
+            kk: 'Phone Browser',
+            ru: 'Phone Browser',
+            en: 'Phone Browser',
+          },
+          layout: 'mobile',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/mobile/02-phone-library.png',
+          title: {
+            kk: 'Phone Library',
+            ru: 'Phone Library',
+            en: 'Phone Library',
+          },
+          group: {
+            kk: 'Phone Browser',
+            ru: 'Phone Browser',
+            en: 'Phone Browser',
+          },
+          layout: 'mobile',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/mobile/03-phone-track.png',
+          title: {
+            kk: 'Phone Track',
+            ru: 'Phone Track',
+            en: 'Phone Track',
+          },
+          group: {
+            kk: 'Phone Browser',
+            ru: 'Phone Browser',
+            en: 'Phone Browser',
+          },
+          layout: 'mobile',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/mobile/04-phone-profile.png',
+          title: {
+            kk: 'Phone Profile',
+            ru: 'Phone Profile',
+            en: 'Phone Profile',
+          },
+          group: {
+            kk: 'Phone Browser',
+            ru: 'Phone Browser',
+            en: 'Phone Browser',
+          },
+          layout: 'mobile',
+          fit: 'contain',
+        },
+        {
+          src: '/media/projects/qazsound/mobile/05-phone-featured.png',
+          title: {
+            kk: 'Phone Featured',
+            ru: 'Phone Featured',
+            en: 'Phone Featured',
+          },
+          group: {
+            kk: 'Phone Browser',
+            ru: 'Phone Browser',
+            en: 'Phone Browser',
+          },
+          layout: 'mobile',
+          fit: 'contain',
+        },
       ],
       videos: [
         {
           src: '/media/projects/qazsound/videos/demo.mp4',
-          poster: '/media/projects/qazsound/poster.webp',
+          poster: '/media/projects/qazsound/browser/03-browser-library.png',
           title: {
             kk: 'Толық demo preview',
             ru: 'Полный demo preview',
@@ -256,7 +585,7 @@ export const projects = [
         },
         {
           src: '/media/projects/qazsound/videos/short-preview.mp4',
-          poster: '/media/projects/qazsound/thumb.webp',
+          poster: '/media/projects/qazsound/mobile/01-phone-home.png',
           title: {
             kk: 'Қысқа preview',
             ru: 'Короткий preview',

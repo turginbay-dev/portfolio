@@ -20,9 +20,9 @@ export const profile = {
     },
   },
   cv: {
-    kk: '/files/bekzat-cv-kz.pdf',
-    ru: '/files/bekzat-cv-ru.pdf',
-    en: '/files/bekzat-cv-en.pdf',
+    kk: '/files/Turginbay_Bekzat_CV_KZ.pdf',
+    ru: '/files/Turginbay_Bekzat_CV_RU.pdf',
+    en: '/files/Turginbay_Bekzat_CV_EN.pdf',
   },
   highlightMetrics: [
     { id: 'status', value: 'IT' },
