@@ -84,7 +84,14 @@
     "mediaHint": "Скриншоты и video preview открываются внутри project modal.",
     "linksTitle": "Project Links",
     "detailsTitle": "Project Details",
-    "disabledLink": "Ссылка будет добавлена позже"
+    "disabledLink": "Ссылка будет добавлена позже",
+    "snapshotTitle": "Project Snapshot",
+    "audienceTitle": "Для кого",
+    "problemTitle": "Какую проблему решает",
+    "solutionTitle": "Логика решения",
+    "productFeaturesTitle": "Продуктовые возможности",
+    "engineeringFeaturesTitle": "Инженерные преимущества",
+    "architectureTitle": "Архитектурная основа"
   },
   "contact": {
     "eyebrow": "Contact",

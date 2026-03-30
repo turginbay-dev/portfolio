@@ -84,7 +84,14 @@
     "mediaHint": "Browse screenshots and video previews directly inside the project modal.",
     "linksTitle": "Project Links",
     "detailsTitle": "Project Details",
-    "disabledLink": "Link will be added later"
+    "disabledLink": "Link will be added later",
+    "snapshotTitle": "Project Snapshot",
+    "audienceTitle": "Who It's For",
+    "problemTitle": "Problem It Solves",
+    "solutionTitle": "Solution Logic",
+    "productFeaturesTitle": "Product Features",
+    "engineeringFeaturesTitle": "Engineering Depth",
+    "architectureTitle": "Architecture Foundation"
   },
   "contact": {
     "eyebrow": "Contact",

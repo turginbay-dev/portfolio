@@ -84,7 +84,14 @@
     "mediaHint": "Скриншоттарды қарап, видеоны осы модалдың ішінде preview жасауға болады.",
     "linksTitle": "Project Links",
     "detailsTitle": "Project Details",
-    "disabledLink": "Сілтеме кейін қосылады"
+    "disabledLink": "Сілтеме кейін қосылады",
+    "snapshotTitle": "Жоба Snapshot",
+    "audienceTitle": "Кімге арналған",
+    "problemTitle": "Қандай мәселені шешеді",
+    "solutionTitle": "Шешім логикасы",
+    "productFeaturesTitle": "Өнімдік мүмкіндіктер",
+    "engineeringFeaturesTitle": "Инженерлік артықшылықтар",
+    "architectureTitle": "Архитектуралық негіз"
   },
   "contact": {
     "eyebrow": "Contact",

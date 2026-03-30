@@ -3,25 +3,176 @@ export const projects = [
     id: 'naqusta',
     title: 'NaqUsta',
     type: {
-      kk: 'Full Stack service marketplace',
-      ru: 'Full Stack сервисный маркетплейс',
-      en: 'Full Stack service marketplace',
+      kk: 'Flutter service marketplace',
+      ru: 'Flutter сервисный маркетплейс',
+      en: 'Flutter service marketplace',
     },
-    stack: ['Flutter', 'Django', 'PostgreSQL', 'Firebase'],
+    stack: ['Flutter', 'Dart', 'Firebase Auth', 'Cloud Firestore', 'Firebase Storage'],
     links: {
       demo: '',
-      github: '',
+      github: 'https://github.com/TurginbayBekzat/NaqUsta',
       caseStudy: '/files/NaqUsta_README.pdf',
     },
     description: {
-      kk: 'NaqUsta сервистік платформа ретінде клиент пен маман арасындағы тапсырыс беру, role-based flow және чат тәжірибесін бір жерге жинайды.',
-      ru: 'NaqUsta объединяет сервисный заказ, role-based flow и рабочий чат в одном аккуратном full stack продукте.',
-      en: 'NaqUsta combines service ordering, role-based user flow, and chat into one polished full stack product.',
+      kk: 'NaqUsta құрылыс, жөндеу және тұрмыстық сервиске арналған mobile-first маркетплейс. Жоба клиенттің құрылымдалған тапсырыс жариялау ағынын, шебердің coverage-aware ұсыныс беру логикасын және тапсырысты аяқтауға дейінгі толық lifecycle-ды бір жүйеге жинайды.',
+      ru: 'NaqUsta это mobile-first маркетплейс для строительных, ремонтных и бытовых услуг. Проект объединяет структурированное создание заказов, coverage-aware механику откликов от мастеров и полный lifecycle заказа вплоть до завершения и отзыва.',
+      en: 'NaqUsta is a mobile-first marketplace for construction, repair, and household services. It combines structured order creation, coverage-aware worker offers, and a full transactional lifecycle from request publishing to completion and review.',
     },
     highlights: {
-      kk: ['Role-based onboarding', 'Client and worker flows', 'In-app chat and order status'],
-      ru: ['Role-based onboarding', 'Клиентский и рабочий flow', 'Чат и статусы заказов'],
-      en: ['Role-based onboarding', 'Client and worker flows', 'In-app chat and order status'],
+      kk: [
+        'Phone OTP auth және role-aware onboarding',
+        'Leaf-only категория және kk/ru/en search index',
+        'KATO негізіндегі location coverage filtering',
+        'Offer -> accept -> IN_PROGRESS -> COMPLETED lifecycle',
+        'Firestore rules және emulator-backed integration tests',
+      ],
+      ru: [
+        'Phone OTP auth и role-aware onboarding',
+        'Leaf-only категории и kk/ru/en search index',
+        'KATO-ориентированная location coverage filtering',
+        'Offer -> accept -> IN_PROGRESS -> COMPLETED lifecycle',
+        'Firestore rules и emulator-backed integration tests',
+      ],
+      en: [
+        'Phone OTP auth and role-aware onboarding',
+        'Leaf-only categories with kk/ru/en search index',
+        'KATO-based location coverage filtering',
+        'Offer -> accept -> IN_PROGRESS -> COMPLETED lifecycle',
+        'Firestore rules and emulator-backed integration tests',
+      ],
+    },
+    snapshot: [
+      {
+        label: {
+          kk: 'Даму уақыты',
+          ru: 'Срок разработки',
+          en: 'Development Duration',
+        },
+        value: '10 months (active)',
+      },
+      {
+        label: {
+          kk: 'Dart файлдары',
+          ru: 'Dart-файлы',
+          en: 'Dart Source Files',
+        },
+        value: '168',
+      },
+      {
+        label: {
+          kk: 'Жалпы файл саны',
+          ru: 'Всего файлов',
+          en: 'Total Repository Files',
+        },
+        value: '300+',
+      },
+      {
+        label: {
+          kk: 'Негізгі платформа',
+          ru: 'Основная платформа',
+          en: 'Primary Platform',
+        },
+        value: 'Flutter (mobile-first)',
+      },
+      {
+        label: {
+          kk: 'Бэкенд сервистері',
+          ru: 'Backend-сервисы',
+          en: 'Backend Services',
+        },
+        value: 'Firebase (Auth, Firestore, Storage)',
+      },
+      {
+        label: {
+          kk: 'Лицензия',
+          ru: 'Лицензия',
+          en: 'License',
+        },
+        value: 'MIT',
+      },
+    ],
+    audience: {
+      kk: [
+        'Клиенттер: жұмысты тез орындауға сенімді маман іздейтін тапсырыс берушілер.',
+        'Шеберлер: біліктілігіне сай нақты lead алып, тапсырысты мөлдір flow арқылы жүргізгісі келетін мамандар.',
+      ],
+      ru: [
+        'Клиенты: пользователи, которым нужен надежный специалист для реальной задачи в короткий срок.',
+        'Мастера: специалисты, которым важны качественные лиды и прозрачный order flow.',
+      ],
+      en: [
+        'Clients: users who need a reliable specialist for a real task as quickly as possible.',
+        'Workers: specialists who want qualified leads and a transparent order flow.',
+      ],
+    },
+    problem: {
+      kk: 'Нарықта шебер іздеу көбіне жүйесіз: профильдер шашыраңқы, категория мен локация нақты емес, тапсырыс күйі түсініксіз, ал клиент пен шебер арасындағы сенім нақты lifecycle-пен бекітілмейді.',
+      ru: 'Поиск мастера в локальном сервисном рынке обычно фрагментирован: профили неполные, категории и локации указаны слабо, статус заказа неочевиден, а доверие между сторонами не поддерживается явным lifecycle.',
+      en: 'Finding a trustworthy worker in local service markets is usually fragmented: profiles are inconsistent, categories and location data are weak, order state is ambiguous, and trust is not reinforced by an explicit lifecycle.',
+    },
+    solution: {
+      kk: 'NaqUsta бұл мәселені role-based onboarding, leaf-level category validation, KATO location model, structured order creation, offer submission, chat context және completion-review циклі арқылы шешеді. Нәтижесінде платформа user speed пен data integrity арасындағы тепе-теңдікті ұстайды.',
+      ru: 'NaqUsta решает эту задачу через role-based onboarding, leaf-level category validation, KATO location model, structured order creation, offer submission, chat context и completion-review цикл. В результате продукт держит баланс между скоростью для пользователя и целостностью данных.',
+      en: 'NaqUsta solves this with role-based onboarding, leaf-level category validation, a KATO location model, structured order creation, offer submission, chat context, and a completion-review loop. The result is a product that balances user speed with strong data integrity.',
+    },
+    featureGroups: {
+      product: {
+        kk: [
+          'Phone OTP арқылы кіру және AuthGate арқылы профиль/рөлді бағыттау.',
+          'Клиент пен шеберге бөлек onboarding және навигация ағындары.',
+          'kk/ru/en көптілді категория жүйесі және leaf-only picker.',
+          'Құрылымдалған тапсырыс жариялау: title, category, budget, location, photos.',
+          'Шебердің coverage mode бойынша ашық тапсырыстарды көруі және offer жіберуі.',
+          'Екіжақты completion confirmation және review submission.',
+        ],
+        ru: [
+          'Phone OTP вход и routing по профилю/роли через AuthGate.',
+          'Раздельные onboarding и navigation flows для клиента и мастера.',
+          'Мультиязычная система категорий kk/ru/en и leaf-only picker.',
+          'Структурированное создание заказа: title, category, budget, location, photos.',
+          'Просмотр открытых заказов по coverage mode и отправка offer от мастера.',
+          'Двустороннее completion confirmation и review submission.',
+        ],
+        en: [
+          'Phone OTP sign-in and role/profile routing through AuthGate.',
+          'Separate onboarding and navigation flows for clients and workers.',
+          'Multilingual kk/ru/en category system with a leaf-only picker.',
+          'Structured order creation with title, category, budget, location, and photos.',
+          'Coverage-aware open order feed and worker offer submission.',
+          'Dual completion confirmation and review submission after delivery.',
+        ],
+      },
+      engineering: {
+        kk: [
+          'Feature-driven architecture және service/repository separation.',
+          'Firestore құжаттарына тікелей сәйкес келетін typed domain models.',
+          'Order acceptance және offer update сияқты әрекеттер үшін transaction-based writes.',
+          'Category және location деректеріне арналған кэш, индекс және нормализация.',
+          'Offline overlay, loading overlay және error feedback арқылы тұрақты UX.',
+          'Firebase Emulator Suite-пен critical flow integration tests.',
+        ],
+        ru: [
+          'Feature-driven architecture и разделение service/repository слоев.',
+          'Typed domain models, напрямую отражающие Firestore documents.',
+          'Transaction-based writes для order acceptance и offer update.',
+          'Кэш, индексы и нормализация для category и location datasets.',
+          'Стабильный UX через offline overlay, loading overlay и error feedback.',
+          'Critical flow integration tests на Firebase Emulator Suite.',
+        ],
+        en: [
+          'Feature-driven architecture with clear service/repository separation.',
+          'Typed domain models mapped directly to Firestore documents.',
+          'Transaction-based writes for offer updates and order acceptance.',
+          'Cached and indexed category/location datasets with normalized payloads.',
+          'Reliable UX through offline overlays, loading overlays, and clear error feedback.',
+          'Critical flow integration tests backed by Firebase Emulator Suite.',
+        ],
+      },
+    },
+    architectureNote: {
+      kk: 'NaqUsta архитектурасы presentation, application, data, rules және test қабаттарын бөліп ұстайды. Бұл flow қауіпсіздігін, state transition дұрыстығын және кейін scale жасау мүмкіндігін арттырады.',
+      ru: 'Архитектура NaqUsta разделяет presentation, application, data, rules и test слои. Это повышает безопасность flow, корректность state transitions и готовность к дальнейшему масштабированию.',
+      en: 'NaqUsta separates presentation, application, data, rules, and test layers. That structure improves transactional safety, state-transition correctness, and long-term scalability.',
     },
     media: {
       cover: '/media/projects/naqusta/cover.webp',

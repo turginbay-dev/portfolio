@@ -231,7 +231,7 @@
   }
 
   .modal-panel {
-    @apply relative z-10 w-full max-w-6xl overflow-hidden rounded-5xl border border-white/10 bg-zinc-950;
+    @apply relative z-10 w-full max-w-7xl overflow-hidden rounded-5xl border border-white/10 bg-zinc-950;
     max-height: 92vh;
     background-color: rgba(9, 9, 11, 0.95);
     box-shadow: 0 28px 70px rgba(0, 0, 0, 0.75);

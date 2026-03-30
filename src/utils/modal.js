@@ -22,6 +22,161 @@ function renderAction({ href, label, primary = false }) {
   `;
 }
 
+function renderMetricGrid(project, language, locale) {
+  if (!project.snapshot?.length) {
+    return '';
+  }
+
+  return `
+    <div class="glass-card bg-gradient-to-br from-white/[0.06] via-white/[0.04] to-white/[0.02] p-6">
+      <div class="flex items-center gap-3">
+        <span class="h-px w-10 bg-red-400/70"></span>
+        <div class="text-xs font-semibold uppercase tracking-[0.35em] text-red-400">${locale.projects.snapshotTitle}</div>
+      </div>
+      <div class="mt-5 grid gap-3 sm:grid-cols-2">
+        ${project.snapshot
+          .map(
+            (item) => `
+              <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-transparent p-4">
+                <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-red-400/0 via-red-400/70 to-red-400/0"></div>
+                <div class="text-[11px] font-semibold uppercase tracking-[0.26em] text-zinc-500">
+                  ${item.label[language]}
+                </div>
+                <div class="mt-3 text-base font-medium leading-7 text-white">${item.value}</div>
+              </div>
+            `,
+          )
+          .join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderTextList(items, accent = false) {
+  if (!items?.length) {
+    return '';
+  }
+
+  return `
+    <ul class="grid gap-3">
+      ${items
+        .map(
+          (item) => `
+            <li class="flex gap-3 text-sm leading-7 text-zinc-300">
+              <span class="mt-3 h-1.5 w-1.5 shrink-0 rounded-full ${accent ? 'bg-red-400 shadow-[0_0_14px_rgba(248,113,113,0.55)]' : 'bg-red-500/80'}"></span>
+              <span>${item}</span>
+            </li>
+          `,
+        )
+        .join('')}
+    </ul>
+  `;
+}
+
+function renderInfoCard({ title, copy = '', items = [], accent = false }) {
+  if (!copy && !items.length) {
+    return '';
+  }
+
+  return `
+    <div class="glass-card ${accent ? 'bg-gradient-to-br from-red-500/10 via-white/[0.04] to-black/20' : 'bg-white/5'} h-full p-6">
+      <div class="flex items-center gap-3">
+        <span class="h-px w-8 ${accent ? 'bg-red-400/80' : 'bg-white/20'}"></span>
+        <div class="text-xs font-semibold uppercase tracking-[0.3em] ${accent ? 'text-red-300' : 'text-zinc-500'}">${title}</div>
+      </div>
+      ${copy ? `<p class="mt-4 text-sm leading-7 text-zinc-300">${copy}</p>` : ''}
+      ${items.length ? `<div class="${copy ? 'mt-5' : 'mt-4'}">${renderTextList(items, accent)}</div>` : ''}
+    </div>
+  `;
+}
+
+function renderNarrativeGrid(project, language, locale) {
+  const audience = project.audience?.[language]?.length
+    ? renderInfoCard({
+        title: locale.projects.audienceTitle,
+        items: project.audience[language],
+      })
+    : '';
+  const problem = project.problem?.[language]
+    ? renderInfoCard({
+        title: locale.projects.problemTitle,
+        copy: project.problem[language],
+      })
+    : '';
+  const solution = project.solution?.[language]
+    ? renderInfoCard({
+        title: locale.projects.solutionTitle,
+        copy: project.solution[language],
+        accent: true,
+      })
+    : '';
+
+  const sections = [audience, problem, solution].filter(Boolean);
+
+  if (!sections.length) {
+    return '';
+  }
+
+  return `
+    <div class="grid gap-6 xl:grid-cols-2">
+      ${audience}
+      ${problem}
+      ${solution ? `<div class="xl:col-span-2">${solution}</div>` : ''}
+    </div>
+  `;
+}
+
+function renderFeatureGroups(project, language, locale) {
+  if (!project.featureGroups) {
+    return '';
+  }
+
+  const productFeatures = renderInfoCard({
+    title: locale.projects.productFeaturesTitle,
+    items: project.featureGroups.product?.[language] ?? [],
+  });
+  const engineeringFeatures = renderInfoCard({
+    title: locale.projects.engineeringFeaturesTitle,
+    items: project.featureGroups.engineering?.[language] ?? [],
+  });
+  const architecture = project.architectureNote?.[language]
+    ? renderInfoCard({
+        title: locale.projects.architectureTitle,
+        copy: project.architectureNote[language],
+        accent: true,
+      })
+    : '';
+
+  if (!productFeatures && !engineeringFeatures && !architecture) {
+    return '';
+  }
+
+  return `
+    <div class="grid gap-6 xl:grid-cols-2">
+      ${productFeatures}
+      ${engineeringFeatures}
+      ${architecture ? `<div class="xl:col-span-2">${architecture}</div>` : ''}
+    </div>
+  `;
+}
+
+function renderLinksCard(project, locale) {
+  return `
+    <div class="glass-card bg-gradient-to-br from-white/[0.06] via-white/[0.04] to-white/[0.02] p-6">
+      <div class="flex items-center gap-3">
+        <span class="h-px w-10 bg-red-400/70"></span>
+        <div class="text-xs font-semibold uppercase tracking-[0.35em] text-red-400">${locale.projects.linksTitle}</div>
+      </div>
+      <div class="mt-5 grid gap-3 sm:flex sm:flex-wrap">
+        ${renderAction({ href: project.links.demo, label: locale.buttons.liveDemo, primary: true })}
+        ${renderAction({ href: project.links.github, label: locale.buttons.githubRepo })}
+        ${renderAction({ href: project.links.caseStudy, label: locale.buttons.caseStudy })}
+      </div>
+      <p class="mt-5 text-sm leading-7 text-zinc-400">${locale.projects.mediaHint}</p>
+    </div>
+  `;
+}
+
 function renderProjectModal(project, locale, language) {
   const highlights = project.highlights[language]
     .map((item) => `<li class="text-sm leading-7 text-zinc-300">${item}</li>`)
@@ -49,14 +204,17 @@ function renderProjectModal(project, locale, language) {
           </button>
         </div>
 
-        <div class="mt-8 grid gap-8 xl:grid-cols-[1.15fr_0.85fr] xl:gap-10">
-          <div>
+        <div class="mt-8 grid gap-8 xl:grid-cols-[minmax(0,1.12fr)_minmax(340px,0.88fr)] xl:items-start xl:gap-10">
+          <div class="space-y-6">
             ${renderProjectGallery({ project, language, locale })}
           </div>
 
           <aside class="space-y-6">
-            <div class="glass-card p-6">
-              <div class="text-xs font-semibold uppercase tracking-[0.35em] text-red-400">${locale.projects.detailsTitle}</div>
+            <div class="glass-card bg-gradient-to-br from-white/[0.06] via-white/[0.04] to-white/[0.02] p-6">
+              <div class="flex items-center gap-3">
+                <span class="h-px w-10 bg-red-400/70"></span>
+                <div class="text-xs font-semibold uppercase tracking-[0.35em] text-red-400">${locale.projects.detailsTitle}</div>
+              </div>
               <p class="mt-4 text-sm leading-7 text-zinc-300">${project.description[language]}</p>
 
               <div class="mt-6">
@@ -78,16 +236,14 @@ function renderProjectModal(project, locale, language) {
               </div>
             </div>
 
-            <div class="glass-card p-6">
-              <div class="text-xs font-semibold uppercase tracking-[0.35em] text-red-400">${locale.projects.linksTitle}</div>
-              <div class="mt-5 flex flex-wrap gap-3">
-                ${renderAction({ href: project.links.demo, label: locale.buttons.liveDemo, primary: true })}
-                ${renderAction({ href: project.links.github, label: locale.buttons.githubRepo })}
-                ${renderAction({ href: project.links.caseStudy, label: locale.buttons.caseStudy })}
-              </div>
-              <p class="mt-5 text-sm leading-7 text-zinc-400">${locale.projects.mediaHint}</p>
-            </div>
+            ${renderMetricGrid(project, language, locale)}
           </aside>
+        </div>
+
+        <div class="mt-8 space-y-6">
+          ${renderNarrativeGrid(project, language, locale)}
+          ${renderFeatureGroups(project, language, locale)}
+          ${renderLinksCard(project, locale)}
         </div>
       </div>
     </div>
