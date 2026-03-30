@@ -1,0 +1,1 @@
+// Hero card component placeholder.
