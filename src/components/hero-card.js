@@ -8,7 +8,7 @@ export function renderHeroCard({ locale, cv, location }) {
   return `
     <div class="panel section-noise p-6 sm:p-8 lg:p-10" data-animate>
       <div class="section-label">${locale.hero.eyebrow}</div>
-      <h1 class="font-display text-[2.5rem] font-semibold uppercase leading-[0.95] text-white text-shadow-soft sm:text-5xl lg:text-7xl">
+      <h1 class="font-display text-[clamp(2rem,10vw,2.5rem)] font-semibold uppercase leading-[0.95] text-white text-shadow-soft sm:text-5xl lg:text-7xl">
         <span class="block">${locale.hero.headlineTop}</span>
         <span class="block text-red-500">${locale.hero.headlineAccent}</span>
         <span class="block">${locale.hero.headlineBottom}</span>

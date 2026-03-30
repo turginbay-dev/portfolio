@@ -168,16 +168,18 @@
   }
 
   .project-media-meta-column {
-    @apply flex max-w-full flex-col items-start gap-2;
+    @apply flex min-w-0 max-w-full flex-col items-start gap-2;
   }
 
   .project-media-pill {
-    @apply inline-flex items-center rounded-full border border-white/10 bg-black/45 px-4 py-2 text-[10px] font-semibold uppercase text-zinc-100 shadow-[0_12px_30px_rgba(0,0,0,0.22)] backdrop-blur-xl sm:text-[11px];
+    @apply inline-flex max-w-full items-center rounded-full border border-white/10 bg-black/45 px-4 py-2 text-[10px] font-semibold uppercase text-zinc-100 shadow-[0_12px_30px_rgba(0,0,0,0.22)] backdrop-blur-xl sm:text-[11px];
     letter-spacing: 0.32em;
+    line-height: 1.45;
   }
 
   .project-media-stack {
-    @apply max-w-full border-red-500/25 bg-zinc-950/65 text-zinc-100;
+    @apply min-w-0 max-w-full whitespace-normal break-words border-red-500/25 bg-zinc-950/65 text-zinc-100;
+    overflow-wrap: anywhere;
   }
 
   .project-media-count {
@@ -416,6 +418,10 @@
     @apply py-16;
   }
 
+  .section-label {
+    letter-spacing: 0.22em;
+  }
+
   .panel,
   .project-shell,
   .modal-panel {
@@ -447,7 +453,11 @@
 
   .project-media-pill {
     @apply px-3 py-2 text-[9px];
-    letter-spacing: 0.26em;
+    letter-spacing: 0.18em;
+  }
+
+  .lang-toggle {
+    letter-spacing: 0.18em;
   }
 
   .modal-root {
