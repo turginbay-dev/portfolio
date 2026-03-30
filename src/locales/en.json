@@ -1,1 +1,112 @@
-{}
+{
+  "nav": {
+    "hero": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "buttons": {
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "downloadCv": "Download CV",
+    "liveDemo": "Live Demo",
+    "githubRepo": "GitHub Repo",
+    "caseStudy": "README / Case Study",
+    "openMedia": "Open Media",
+    "close": "Close",
+    "sendMessage": "Send Message",
+    "primaryAction": "Quick Contact"
+  },
+  "cvMenu": {
+    "title": "Choose CV language",
+    "kk": "Kazakh",
+    "ru": "Russian",
+    "en": "English"
+  },
+  "hero": {
+    "eyebrow": "Hi, I'm Bekzat",
+    "headlineTop": "Software Engineer",
+    "headlineAccent": "Backend Developer",
+    "headlineBottom": "Full Stack Developer",
+    "subtitle": "IT student and product-minded developer focused on real builds. I design backend flows, APIs, mobile integrations, and deployment with clean structure.",
+    "availability": "Open to collaboration, internships, and shipping meaningful products.",
+    "pills": [
+      "API Design",
+      "Mobile Delivery",
+      "Deployment Ready"
+    ],
+    "sideTitle": "Structured, clean, production-minded development",
+    "sideText": "The portfolio stays close to the chosen reference while keeping a premium black + red visual system and modular frontend structure."
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "IT student balancing study with real product development",
+    "description": "This portfolio is meant to show more than a styled screen. It should communicate real builds, practical flow, and clean engineering decisions.",
+    "paragraphs": [
+      "I focus on backend and full stack work, treating interface, architecture, and user flow as parts of the same product system.",
+      "I am especially interested in projects that require clear APIs, mobile integration, thoughtful data models, and clean deployment steps."
+    ],
+    "cards": [
+      {
+        "value": "IT",
+        "label": "Student & builder"
+      },
+      {
+        "value": "Backend",
+        "label": "Django, APIs, PostgreSQL"
+      },
+      {
+        "value": "02",
+        "label": "Featured projects"
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Core stack and working focus",
+    "description": "Technologies I use most often for backend logic, mobile integration, UI implementation, and deployment flow."
+  },
+  "projects": {
+    "eyebrow": "My Projects",
+    "title": "Focused on two featured builds",
+    "description": "NaqUsta and QazSound are structured with cover media, screenshots, video preview, and case study links. Project cards render from structured data.",
+    "featuredLabel": "Featured Project",
+    "openProject": "Open project media",
+    "stackTitle": "Stack",
+    "highlightsTitle": "Core Focus",
+    "galleryTitle": "Gallery & Preview",
+    "videoLabel": "Video Preview",
+    "screenshotLabel": "Screenshot",
+    "mediaHint": "Browse screenshots and video previews directly inside the project modal.",
+    "linksTitle": "Project Links",
+    "detailsTitle": "Project Details",
+    "disabledLink": "Link will be added later"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's Work Together",
+    "description": "If you want to discuss an internship, collaboration, freelance work, or a product build, use any of the channels below.",
+    "methodsTitle": "Contact Channels",
+    "formTitle": "Send a short message",
+    "formText": "This form works through mailto, so it stays frontend-only and can later point to your real email address.",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "messagePlaceholder": "Tell me about the project or opportunity",
+    "mailtoSubject": "Portfolio inquiry",
+    "quickTitle": "Quick Actions",
+    "quickText": "WhatsApp and Email are highlighted as the primary contact methods."
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "quickLinks": "Quick Links",
+    "socials": "Social Links",
+    "note": "Built with Vite + Tailwind CSS + vanilla JavaScript."
+  }
+}

@@ -3,10 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Premium dark portfolio for Bekzat, built with Vite, Tailwind CSS, and vanilla JavaScript."
+    />
+    <meta name="theme-color" content="#09090b" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bekzat | Portfolio" />
+    <meta
+      property="og:description"
+      content="Software Engineer / Backend Developer / Full Stack Developer portfolio."
+    />
+    <meta property="og:image" content="/og-cover.jpg" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Bekzat | Portfolio</title>
   </head>
   <body>
     <div id="app"></div>
+    <noscript>
+      <div
+        style="
+          display: flex;
+          min-height: 100vh;
+          align-items: center;
+          justify-content: center;
+          background: #09090b;
+          color: #ffffff;
+          font-family: Arial, sans-serif;
+          padding: 24px;
+          text-align: center;
+        "
+      >
+        This portfolio requires JavaScript to render properly.
+      </div>
+    </noscript>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

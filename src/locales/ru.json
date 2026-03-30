@@ -1,1 +1,112 @@
-{}
+{
+  "nav": {
+    "hero": "Главная",
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "contact": "Контакты",
+    "downloadCv": "Скачать CV",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
+  },
+  "buttons": {
+    "viewProjects": "Смотреть проекты",
+    "contactMe": "Связаться",
+    "downloadCv": "Скачать CV",
+    "liveDemo": "Live Demo",
+    "githubRepo": "GitHub Repo",
+    "caseStudy": "README / Case Study",
+    "openMedia": "Открыть медиа",
+    "close": "Закрыть",
+    "sendMessage": "Отправить сообщение",
+    "primaryAction": "Быстрая связь"
+  },
+  "cvMenu": {
+    "title": "Выбери язык CV",
+    "kk": "Казахский",
+    "ru": "Русский",
+    "en": "Английский"
+  },
+  "hero": {
+    "eyebrow": "Привет, я Bekzat",
+    "headlineTop": "Software Engineer",
+    "headlineAccent": "Backend Developer",
+    "headlineBottom": "Full Stack Developer",
+    "subtitle": "IT-студент и developer, который фокусируется на реальных продуктах. Собираю backend, API, mobile integration и deployment-потоки аккуратно и системно.",
+    "availability": "Открыт к collaboration, internship и работе над реальными продуктами.",
+    "pills": [
+      "API Design",
+      "Mobile Delivery",
+      "Deployment Ready"
+    ],
+    "sideTitle": "Структурная и production-minded разработка",
+    "sideText": "Портфолио собрано в dark + red стиле и держится близко к выбранному reference без лишнего визуального шума."
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "IT-студент, который совмещает учебу и реальную разработку",
+    "description": "Для меня портфолио должно показывать не просто красивый экран, а реальные build-процессы, flow и аккуратную структуру.",
+    "paragraphs": [
+      "Я двигаюсь в сторону backend и full stack разработки, стараясь делать интерфейс и архитектуру как части одной целостной системы.",
+      "Мне близки проекты, где нужно продумать API, mobile integration, data model и deployment без хаотичной сборки."
+    ],
+    "cards": [
+      {
+        "value": "IT",
+        "label": "Student & builder"
+      },
+      {
+        "value": "Backend",
+        "label": "Django, APIs, PostgreSQL"
+      },
+      {
+        "value": "02",
+        "label": "Featured projects"
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Основной stack и рабочий фокус",
+    "description": "Технологии, которые я чаще всего использую для backend логики, mobile integration, UI implementation и deployment flow."
+  },
+  "projects": {
+    "eyebrow": "My Projects",
+    "title": "Фокус на двух ключевых проектах",
+    "description": "NaqUsta и QazSound уже имеют структуру cover, screenshots, video preview и case study. Карточки проектов рендерятся из data-файлов.",
+    "featuredLabel": "Featured Project",
+    "openProject": "Открыть медиа проекта",
+    "stackTitle": "Stack",
+    "highlightsTitle": "Основной фокус",
+    "galleryTitle": "Gallery & Preview",
+    "videoLabel": "Video Preview",
+    "screenshotLabel": "Screenshot",
+    "mediaHint": "Скриншоты и video preview открываются внутри project modal.",
+    "linksTitle": "Project Links",
+    "detailsTitle": "Project Details",
+    "disabledLink": "Ссылка будет добавлена позже"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Давай работать вместе",
+    "description": "Если хочешь обсудить internship, collaboration, freelance или запуск продукта, используй любой из каналов ниже.",
+    "methodsTitle": "Каналы связи",
+    "formTitle": "Оставь короткое сообщение",
+    "formText": "Форма работает через mailto. Ее можно использовать без backend и позже направить на свой реальный email.",
+    "nameLabel": "Имя",
+    "emailLabel": "Email",
+    "messageLabel": "Сообщение",
+    "namePlaceholder": "Введите имя",
+    "emailPlaceholder": "Введите email",
+    "messagePlaceholder": "Напишите о проекте или предложении",
+    "mailtoSubject": "Portfolio inquiry",
+    "quickTitle": "Быстрые действия",
+    "quickText": "WhatsApp и Email выделены как primary contact каналы."
+  },
+  "footer": {
+    "copyright": "Все права защищены.",
+    "quickLinks": "Быстрые ссылки",
+    "socials": "Социальные ссылки",
+    "note": "Собрано на Vite + Tailwind CSS + vanilla JavaScript."
+  }
+}

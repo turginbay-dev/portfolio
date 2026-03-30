@@ -1,1 +1,112 @@
-{}
+{
+  "nav": {
+    "hero": "Басты",
+    "about": "Мен туралы",
+    "skills": "Дағдылар",
+    "projects": "Жобалар",
+    "contact": "Байланыс",
+    "downloadCv": "CV жүктеу",
+    "openMenu": "Мәзірді ашу",
+    "closeMenu": "Мәзірді жабу"
+  },
+  "buttons": {
+    "viewProjects": "Жобаларды көру",
+    "contactMe": "Байланысу",
+    "downloadCv": "CV жүктеу",
+    "liveDemo": "Live Demo",
+    "githubRepo": "GitHub Repo",
+    "caseStudy": "README / Case Study",
+    "openMedia": "Медианы ашу",
+    "close": "Жабу",
+    "sendMessage": "Хабарлама жіберу",
+    "primaryAction": "Жедел байланыс"
+  },
+  "cvMenu": {
+    "title": "CV тілін таңда",
+    "kk": "Қазақша",
+    "ru": "Орысша",
+    "en": "Ағылшынша"
+  },
+  "hero": {
+    "eyebrow": "Сәлем, мен Bekzat",
+    "headlineTop": "Software Engineer",
+    "headlineAccent": "Backend Developer",
+    "headlineBottom": "Full Stack Developer",
+    "subtitle": "Нақты өнімге бағытталған IT студент және developer. Backend, API, mobile integration және deployment ағындарын жинақы әрі жүйелі құрастырамын.",
+    "availability": "Жаңа collaboration, internship және real project мүмкіндіктеріне ашықпын.",
+    "pills": [
+      "API Design",
+      "Mobile Delivery",
+      "Deployment Ready"
+    ],
+    "sideTitle": "Құрылымды, таза, production-minded development",
+    "sideText": "Reference дизайннан алыстамай, dark + red визуалды бағытта жиналған premium personal portfolio foundation."
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "Оқу мен нақты development-ты қатар алып жүрген IT студент",
+    "description": "Мен үшін портфолио тек әдемі бет емес. Ол нақты build, real flow және таза архитектураны көрсетуі керек.",
+    "paragraphs": [
+      "Backend және full stack бағытында практикалық жобалар жасап, өнімді тек code жағынан емес, user flow жағынан да ұқыпты ойластыруға тырысамын.",
+      "API, mobile integration, database structure және deployment тәртібін бір жүйеге келтіретін жұмыстар маған жақын."
+    ],
+    "cards": [
+      {
+        "value": "IT",
+        "label": "Student & builder"
+      },
+      {
+        "value": "Backend",
+        "label": "Django, APIs, PostgreSQL"
+      },
+      {
+        "value": "02",
+        "label": "Featured projects"
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Негізгі stack және жұмыс бағытым",
+    "description": "Backend логика, mobile integration, UI implementation және deployment flow үшін жиі қолданатын технологиялар."
+  },
+  "projects": {
+    "eyebrow": "My Projects",
+    "title": "Екі негізгі жобаға фокус",
+    "description": "NaqUsta және QazSound ішінде cover, screenshots, video preview және case study құрылымы дайын. Жоба карточкалары data-driven түрде рендерленеді.",
+    "featuredLabel": "Featured Project",
+    "openProject": "Жоба медиасын ашу",
+    "stackTitle": "Stack",
+    "highlightsTitle": "Негізгі фокус",
+    "galleryTitle": "Gallery & Preview",
+    "videoLabel": "Video Preview",
+    "screenshotLabel": "Screenshot",
+    "mediaHint": "Скриншоттарды қарап, видеоны осы модалдың ішінде preview жасауға болады.",
+    "linksTitle": "Project Links",
+    "detailsTitle": "Project Details",
+    "disabledLink": "Сілтеме кейін қосылады"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Бірге жұмыс істейік",
+    "description": "Internship, collaboration, freelance немесе product build туралы сөйлесу керек болса, төмендегі арналар арқылы жаза аласың.",
+    "methodsTitle": "Байланыс арналары",
+    "formTitle": "Қысқа хабарлама қалдыр",
+    "formText": "Бұл форма mailto арқылы жұмыс істейді. Кейін backend қоспай-ақ өз email-ыңа бағыттап қолдана аласың.",
+    "nameLabel": "Атың",
+    "emailLabel": "Email",
+    "messageLabel": "Хабарлама",
+    "namePlaceholder": "Атыңды жаз",
+    "emailPlaceholder": "Email енгіз",
+    "messagePlaceholder": "Жоба немесе ұсыныс туралы жаз",
+    "mailtoSubject": "Portfolio inquiry",
+    "quickTitle": "Жедел әрекет",
+    "quickText": "WhatsApp пен Email бірінші деңгейдегі primary contact ретінде ерекшеленіп тұр."
+  },
+  "footer": {
+    "copyright": "Барлық құқықтар қорғалған.",
+    "quickLinks": "Жылдам сілтемелер",
+    "socials": "Әлеуметтік сілтемелер",
+    "note": "Vite + Tailwind CSS + vanilla JavaScript негізінде жасалған."
+  }
+}
